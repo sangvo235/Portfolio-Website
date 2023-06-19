@@ -56,6 +56,14 @@
         "async": false
       }
     },
+    "(app-client)/./src/app/components/Navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/Navbar.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/Images/datacom_logo.png": {
       "*": {
         "id": "(sc_client)/./src/Images/datacom_logo.png",
@@ -64,9 +72,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/Images/deloitte_logo.jpeg": {
+    "(app-client)/./src/Images/deloitte_logo.jpg": {
       "*": {
-        "id": "(sc_client)/./src/Images/deloitte_logo.jpeg",
+        "id": "(sc_client)/./src/Images/deloitte_logo.jpg",
         "name": "*",
         "chunks": [],
         "async": false
@@ -112,9 +120,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/experience.tsx": {
+    "(app-client)/./src/app/components/experience.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/experience.tsx",
+        "id": "(sc_client)/./src/app/components/experience.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -291,6 +299,14 @@
       ],
       "async": false
     },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/components/Navbar.tsx": {
+      "id": "(app-client)/./src/app/components/Navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/datacom_logo.png": {
       "id": "(app-client)/./src/Images/datacom_logo.png",
       "name": "*",
@@ -299,8 +315,8 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/deloitte_logo.jpeg": {
-      "id": "(app-client)/./src/Images/deloitte_logo.jpeg",
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/deloitte_logo.jpg": {
+      "id": "(app-client)/./src/Images/deloitte_logo.jpg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -363,8 +379,8 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/experience.tsx": {
-      "id": "(app-client)/./src/app/experience.tsx",
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/components/experience.tsx": {
+      "id": "(app-client)/./src/app/components/experience.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -381,10 +397,6 @@
     }
   },
   "entryCSSFiles": {
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/page": {
-      "modules": [],
-      "files": []
-    },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/layout": {
       "modules": [
         "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/globals.css",
@@ -393,6 +405,10 @@
       "files": [
         "static/css/app/layout.css"
       ]
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/page": {
+      "modules": [],
+      "files": []
     }
   }
 }
