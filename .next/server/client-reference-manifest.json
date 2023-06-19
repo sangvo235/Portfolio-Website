@@ -56,9 +56,41 @@
         "async": false
       }
     },
+    "(app-client)/./src/Images/datacom_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/datacom_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/deloitte_logo.jpeg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/deloitte_logo.jpeg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/easy_monitor_logo.jpeg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/easy_monitor_logo.jpeg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/Images/sangvo.jpeg": {
       "*": {
         "id": "(sc_client)/./src/Images/sangvo.jpeg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/swinburne_logo.jpg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/swinburne_logo.jpg",
         "name": "*",
         "chunks": [],
         "async": false
@@ -75,6 +107,14 @@
     "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/experience.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/experience.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -251,8 +291,40 @@
       ],
       "async": false
     },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/datacom_logo.png": {
+      "id": "(app-client)/./src/Images/datacom_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/deloitte_logo.jpeg": {
+      "id": "(app-client)/./src/Images/deloitte_logo.jpeg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/easy_monitor_logo.jpeg": {
+      "id": "(app-client)/./src/Images/easy_monitor_logo.jpeg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/sangvo.jpeg": {
       "id": "(app-client)/./src/Images/sangvo.jpeg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/swinburne_logo.jpg": {
+      "id": "(app-client)/./src/Images/swinburne_logo.jpg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -291,6 +363,14 @@
       ],
       "async": false
     },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/experience.tsx": {
+      "id": "(app-client)/./src/app/experience.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/page.tsx": {
       "id": "(app-client)/./src/app/page.tsx",
       "name": "*",
@@ -301,6 +381,10 @@
     }
   },
   "entryCSSFiles": {
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/page": {
+      "modules": [],
+      "files": []
+    },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/layout": {
       "modules": [
         "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/globals.css",
@@ -309,10 +393,6 @@
       "files": [
         "static/css/app/layout.css"
       ]
-    },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/page": {
-      "modules": [],
-      "files": []
     }
   }
 }

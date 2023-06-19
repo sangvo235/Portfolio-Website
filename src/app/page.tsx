@@ -4,6 +4,7 @@ import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 import Image from 'next/image';
 import sangvo from '../Images/sangvo.jpeg';
 import { useState } from 'react';
+import Experience from './experience';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -16,7 +17,7 @@ export default function Home() {
           <ul className='flex items-center'>
             <li>
               <BsFillMoonStarsFill 
-                className='cursor-pointer text-2xl'
+                className='cursor-pointer text-2xl dark:text-white'
                 onClick={() => setDarkMode(!darkMode)}
                 />
             </li>
@@ -39,6 +40,9 @@ export default function Home() {
       </section>
       
       <section>
+        < Experience />
+
+        
 
       </section>
 
