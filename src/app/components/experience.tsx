@@ -13,7 +13,7 @@ const experienceList = [
     title: 'Master of Information Technology (Software Development)',
     company: 'Swinburne University of Technology',
     date: 'Feb 2022 - Current',
-    description: 'Grade: High Distinction (HD), GPA: 4.0, WAM: 85.625',
+    description: 'GPA: 4.0/4.0, WAM: 86.27/100',
   },
 
   {
