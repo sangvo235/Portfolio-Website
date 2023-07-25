@@ -1,5 +1,6 @@
 import Bio from './components/Bio';
 import Experience from './components/experience';
+import Education from './components/Education';
 
 export const metadata = {
   title: 'Sang Vo',
@@ -14,6 +15,7 @@ export default function Home() {
     <main className='mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl'>
       < Bio />
       < Experience />
+      < Education />
     </main>
   )
 }

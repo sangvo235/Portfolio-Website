@@ -56,6 +56,22 @@
         "async": false
       }
     },
+    "(app-client)/./src/app/components/Navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/Navbar.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/layout.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/layout.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/Images/datacom_logo.png": {
       "*": {
         "id": "(sc_client)/./src/Images/datacom_logo.png",
@@ -80,6 +96,14 @@
         "async": false
       }
     },
+    "(app-client)/./src/Images/monash_logo.jpeg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/monash_logo.jpeg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/Images/sangvo.jpeg": {
       "*": {
         "id": "(sc_client)/./src/Images/sangvo.jpeg",
@@ -91,6 +115,14 @@
     "(app-client)/./src/Images/swinburne_logo.jpg": {
       "*": {
         "id": "(sc_client)/./src/Images/swinburne_logo.jpg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/tum_logo.jpeg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/tum_logo.jpeg",
         "name": "*",
         "chunks": [],
         "async": false
@@ -120,25 +152,17 @@
         "async": false
       }
     },
+    "(app-client)/./src/app/components/Education.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/Education.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/app/components/experience.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/components/experience.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/components/Navbar.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/components/Navbar.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/layout.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/layout.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -307,6 +331,22 @@
       ],
       "async": false
     },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/components/Navbar.tsx": {
+      "id": "(app-client)/./src/app/components/Navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/layout.tsx": {
+      "id": "(app-client)/./src/app/layout.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/datacom_logo.png": {
       "id": "(app-client)/./src/Images/datacom_logo.png",
       "name": "*",
@@ -331,6 +371,14 @@
       ],
       "async": false
     },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/monash_logo.jpeg": {
+      "id": "(app-client)/./src/Images/monash_logo.jpeg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/sangvo.jpeg": {
       "id": "(app-client)/./src/Images/sangvo.jpeg",
       "name": "*",
@@ -341,6 +389,14 @@
     },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/swinburne_logo.jpg": {
       "id": "(app-client)/./src/Images/swinburne_logo.jpg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/tum_logo.jpeg": {
+      "id": "(app-client)/./src/Images/tum_logo.jpeg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -387,6 +443,14 @@
       ],
       "async": false
     },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/components/Education.tsx": {
+      "id": "(app-client)/./src/app/components/Education.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/components/experience.tsx": {
       "id": "(app-client)/./src/app/components/experience.tsx",
       "name": "*",
@@ -394,29 +458,9 @@
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
-    },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/components/Navbar.tsx": {
-      "id": "(app-client)/./src/app/components/Navbar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/layout.tsx": {
-      "id": "(app-client)/./src/app/layout.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/page": {
-      "modules": [],
-      "files": []
-    },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/layout": {
       "modules": [
         "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/globals.css",
@@ -425,6 +469,10 @@
       "files": [
         "static/css/app/layout.css"
       ]
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/page": {
+      "modules": [],
+      "files": []
     }
   }
 }

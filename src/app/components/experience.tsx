@@ -5,17 +5,10 @@ import swinburne from '../../Images/swinburne_logo.jpg';
 import deloitte from '../../Images/deloitte_logo.jpg';
 import easyMonitor from '../../Images/easy_monitor_logo.jpeg';
 import datacom from '../../Images/datacom_logo.png';
+import { HiArrowDown } from 'react-icons/hi';
+import { Link } from 'react-scroll';
 
 const experienceList = [
-  // {
-  //   id: 'swinburne',
-  //   image: swinburne,
-  //   title: 'Master of Information Technology (Software Development)',
-  //   company: 'Swinburne University of Technology',
-  //   date: 'Feb 2022 - Current',
-  //   description: 'GPA: 4.0/4.0, WAM: 86.27/100',
-  // },
-
   {
     id: 'digital',
     image: swinburne,
@@ -139,7 +132,22 @@ export default function Experience() {
             transitionDuration={500}>
               {items}
           </Accordion>
+
+            <div className='flex flex-row justify-center mt-12'>
+              <Link 
+                  to='education'
+                  activeClass='active'
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+              >
+                  <HiArrowDown size={35} className='animate-bounce' />
+              </Link>    
+          </div> 
         </div>
+
+
       </section>
   );
 }
