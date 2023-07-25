@@ -108,6 +108,7 @@ export default function Experience() {
         <AccordionLabel {...item} />
       </Accordion.Control>
       <Accordion.Panel>
+        <div className='dark:text-black'>
         <Text size="sm" mx={32}>{item.description}</Text>
         {item.skills && (
           <div className="mt-4 text-center">
@@ -118,6 +119,7 @@ export default function Experience() {
             ))}
           </div>
         )}
+        </div>
       </Accordion.Panel>
     </Accordion.Item>
   ));
@@ -128,26 +130,25 @@ export default function Experience() {
           <h1 className='text-center font-semibold text-3xl mb-12 md:text-5xl'>Experience</h1>
           <Accordion 
             chevronPosition="right" 
-            variant="contained" 
-            transitionDuration={500}>
+            variant="separated" 
+            transitionDuration={500}
+            >
               {items}
           </Accordion>
 
-            <div className='flex flex-row justify-center mt-12'>
-              <Link 
-                  to='education'
-                  activeClass='active'
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={500}
-              >
-                  <HiArrowDown size={35} className='animate-bounce' />
-              </Link>    
+          <div className='flex flex-row justify-center mt-12'>
+            <Link 
+                to='education'
+                activeClass='active'
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+            >
+                <HiArrowDown size={35} className='animate-bounce' />
+            </Link>    
           </div> 
         </div>
-
-
       </section>
   );
 }

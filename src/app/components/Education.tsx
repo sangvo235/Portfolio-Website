@@ -4,6 +4,8 @@ import Image, { StaticImageData } from 'next/image';
 import swinburne from '../../Images/swinburne_logo.jpg';
 import tum from '../../Images/tum_logo.jpeg';
 import monash from '../../Images/monash_logo.jpeg';
+import { HiArrowDown } from 'react-icons/hi';
+import { Link } from 'react-scroll';
 
 const educationList = [
   {
@@ -64,7 +66,7 @@ const educationList = [
 
   export default function Education() {
     const items = educationList.map((item) => (             
-      <Card shadow="xl" padding="xl" radius="md" withBorder={true} key={item.id} >
+      <Card shadow="sm" mt="sm" pb="lg" radius="md" withBorder={true} key={item.id} >
         <CardLabel {...item} />
       </Card>
     ));
@@ -74,6 +76,19 @@ const educationList = [
             <div className='my-12 pb-12 md:pt-16 md:pb-48'>
                 <h1 className='text-center font-semibold text-3xl mb-12 md:text-5xl'>Education</h1>
                 {items}
+
+                <div className='flex flex-row justify-center mt-12'>
+                    <Link 
+                        to='projects'
+                        activeClass='active'
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={500}
+                    >
+                        <HiArrowDown size={35} className='animate-bounce' />
+                    </Link>    
+                </div>    
             </div>
         </section>
     );
