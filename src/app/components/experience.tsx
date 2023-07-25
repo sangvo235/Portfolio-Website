@@ -7,14 +7,14 @@ import easyMonitor from '../../Images/easy_monitor_logo.jpeg';
 import datacom from '../../Images/datacom_logo.png';
 
 const experienceList = [
-  {
-    id: 'swinburne',
-    image: swinburne,
-    title: 'Master of Information Technology (Software Development)',
-    company: 'Swinburne University of Technology',
-    date: 'Feb 2022 - Current',
-    description: 'GPA: 4.0/4.0, WAM: 86.27/100',
-  },
+  // {
+  //   id: 'swinburne',
+  //   image: swinburne,
+  //   title: 'Master of Information Technology (Software Development)',
+  //   company: 'Swinburne University of Technology',
+  //   date: 'Feb 2022 - Current',
+  //   description: 'GPA: 4.0/4.0, WAM: 86.27/100',
+  // },
 
   {
     id: 'digital',
@@ -130,12 +130,17 @@ export default function Experience() {
   ));
   
     return (
-      <Accordion 
-        chevronPosition="right" 
-        variant="contained" 
-        transitionDuration={500}>
-          {items}
-      </Accordion>
+      <section id="experience">
+        <div className='my-12 pb-12 md:pt-16 md:pb-48'>
+          <h1 className='text-center font-semibold text-3xl mb-12 md:text-5xl'>Experience</h1>
+          <Accordion 
+            chevronPosition="right" 
+            variant="contained" 
+            transitionDuration={500}>
+              {items}
+          </Accordion>
+        </div>
+      </section>
   );
 }
 
