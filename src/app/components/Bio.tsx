@@ -57,8 +57,14 @@ export const Bio = () => {
                         >
                             Projects
                     </Link> 
-                    <AiFillLinkedin />
-                    <AiFillGithub />
+                    
+                    <a href="https://www.linkedin.com/in/sangvo235/" target="_blank" title="linkedin">
+                        <AiFillLinkedin className="hover:text-sky-700"/>
+                    </a>
+
+                    <a href="https://github.com/sangvo235">
+                        <AiFillGithub className="hover:text-sky-700" target="_blank" title="github"/>
+                    </a>
                 </span>  
                 
                      
