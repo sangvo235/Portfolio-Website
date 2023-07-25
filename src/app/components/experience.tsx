@@ -5,17 +5,10 @@ import swinburne from '../../Images/swinburne_logo.jpg';
 import deloitte from '../../Images/deloitte_logo.jpg';
 import easyMonitor from '../../Images/easy_monitor_logo.jpeg';
 import datacom from '../../Images/datacom_logo.png';
+import { HiArrowDown } from 'react-icons/hi';
+import { Link } from 'react-scroll';
 
 const experienceList = [
-  // {
-  //   id: 'swinburne',
-  //   image: swinburne,
-  //   title: 'Master of Information Technology (Software Development)',
-  //   company: 'Swinburne University of Technology',
-  //   date: 'Feb 2022 - Current',
-  //   description: 'GPA: 4.0/4.0, WAM: 86.27/100',
-  // },
-
   {
     id: 'digital',
     image: swinburne,
@@ -115,6 +108,7 @@ export default function Experience() {
         <AccordionLabel {...item} />
       </Accordion.Control>
       <Accordion.Panel>
+        <div className='dark:text-black'>
         <Text size="sm" mx={32}>{item.description}</Text>
         {item.skills && (
           <div className="mt-4 text-center">
@@ -125,6 +119,7 @@ export default function Experience() {
             ))}
           </div>
         )}
+        </div>
       </Accordion.Panel>
     </Accordion.Item>
   ));
@@ -135,10 +130,24 @@ export default function Experience() {
           <h1 className='text-center font-semibold text-3xl mb-12 md:text-5xl'>Experience</h1>
           <Accordion 
             chevronPosition="right" 
-            variant="contained" 
-            transitionDuration={500}>
+            variant="separated" 
+            transitionDuration={500}
+            >
               {items}
           </Accordion>
+
+          <div className='flex flex-row justify-center mt-12'>
+            <Link 
+                to='education'
+                activeClass='active'
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+            >
+                <HiArrowDown size={35} className='animate-bounce' />
+            </Link>    
+          </div> 
         </div>
       </section>
   );

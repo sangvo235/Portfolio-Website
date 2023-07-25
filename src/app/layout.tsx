@@ -6,14 +6,6 @@ import { ThemeProvider } from 'next-themes'
 
 const inter = Inter({ subsets: ['latin'] })
 
-// export const metadata = {
-//   title: 'Sang Vo',
-//   description: "Sang Vo's Personal Portfolio",
-//   icons: {
-//     icon: '/favicon.ico?v=4',
-//   },
-// }
-
 export default function RootLayout({
   children,
 }: {

@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import {AiFillLinkedin, AiFillGithub, AiFillMessage} from 'react-icons/ai';
+import {AiFillLinkedin, AiFillGithub, AiFillMail} from 'react-icons/ai';
 import Image from 'next/image';
 import sangvo from '../../Images/sangvo.jpeg';
 import Typewriter from 'typewriter-effect';
@@ -57,8 +57,15 @@ export const Bio = () => {
                         >
                             Projects
                     </Link> 
-                    <AiFillLinkedin />
-                    <AiFillGithub />
+                    <a href="https://www.linkedin.com/in/sangvo235/" target="_blank" title="linkedin">
+                        <AiFillLinkedin className="hover:text-sky-700"/>
+                    </a>
+                    <a href="https://github.com/sangvo235">
+                        <AiFillGithub className="hover:text-sky-700" target="_blank" title="github"/>
+                    </a>
+                    <a href="mailto:sangvo235@gmail.com" target="_blank" title="email">
+                        <AiFillMail className="hover:text-sky-700"/>
+                    </a>
                 </span>  
                 
                      
