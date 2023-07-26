@@ -18,12 +18,24 @@ import jsIcon from '../../Images/Project/js_logo.svg';
 import bootstrapIcon from '../../Images/Project/bootstrap_logo.svg';
 import javaIcon from '../../Images/Project/java_logo.svg';
 import bluejIcon from '../../Images/Project/bluej_logo.png';
+import mantineIcon from '../../Images/Project/mantine_logo.png';
+import astroIcon from '../../Images/Project/astro_logo.png';
 
 import { BsGithub } from 'react-icons/bs';
 import { BsArrowUpRightSquare } from 'react-icons/bs';
 import SlideUp from './SlideUp';
 
 const projectsList = [
+    {
+        name: "Rover Car Club of Australia",
+        description: 'Develop a web application for RCCA. \
+                      Allowing users to upload and search rover related records. \
+                      Overview of database record, data analytics and submitted files pending approval enabled via admin dashboard.',
+        image: sociallyApp, 
+        tech: [astroIcon, reactIcon, mantineIcon, tailwindIcon, firebaseIcon, figmaIcon],
+        github: 'https://github.com/JATTYz/TIP-Project-2023',
+        link: 'https://github.com/JATTYz/TIP-Project-2023',
+    }, 
     {
         name: "Socially",
         description: 'React Native app created for UNIHACK 2023 to help encourage people to become social butterflies through topic and prompt generation. \

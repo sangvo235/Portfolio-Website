@@ -72,6 +72,14 @@
         "async": false
       }
     },
+    "(app-client)/./src/Images/Project/astro_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Project/astro_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/Images/Project/bluej_logo.png": {
       "*": {
         "id": "(sc_client)/./src/Images/Project/bluej_logo.png",
@@ -139,6 +147,14 @@
     "(app-client)/./src/Images/Project/js_logo.svg": {
       "*": {
         "id": "(sc_client)/./src/Images/Project/js_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Project/mantine_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Project/mantine_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
@@ -483,6 +499,14 @@
       ],
       "async": false
     },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/astro_logo.png": {
+      "id": "(app-client)/./src/Images/Project/astro_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/bluej_logo.png": {
       "id": "(app-client)/./src/Images/Project/bluej_logo.png",
       "name": "*",
@@ -549,6 +573,14 @@
     },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/js_logo.svg": {
       "id": "(app-client)/./src/Images/Project/js_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/mantine_logo.png": {
+      "id": "(app-client)/./src/Images/Project/mantine_logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
