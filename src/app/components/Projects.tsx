@@ -42,7 +42,7 @@ const projectsList = [
         image: portfolioUpdated, 
         tech: [nextjsIcon, typescriptIcon, reactIcon, mantineIcon, tailwindIcon, gitIcon, vercelIcon],
         github: 'https://github.com/sangvo235/Portfolio-Website',
-        link: 'https://github.com/JATTYz/TIP-Project-2023',
+        link: 'https://sang-vo.vercel.app',
     }, 
     {
         name: "Rover Car Club of Australia",
