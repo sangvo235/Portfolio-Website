@@ -4,10 +4,21 @@ import Image, { StaticImageData } from 'next/image';
 import quizPlatform from '../../Images/Project/quiz_platform.png';
 import portfolioWebsite from '../../Images/Project/portfolio_website.png';
 import busApp from '../../Images/Project/bus_app.gif';
+import sociallyApp from '../../Images/Project/socially_app.gif';
+import parkingApp from '../../Images/Project/parking_system.png';
 import reactIcon from '../../Images/Project/react_logo.svg';
 import tailwindIcon from '../../Images/Project/tailwind_logo.svg';
 import firebaseIcon from '../../Images/Project/firebase_logo.svg';
 import figmaIcon from '../../Images/Project/figma_logo.svg';
+import djangoIcon from '../../Images/Project/django_logo.svg';
+import nativewindIcon from '../../Images/Project/nativewind_logo.svg';
+import cssIcon from '../../Images/Project/css_logo.svg';
+import htmlIcon from '../../Images/Project/html_logo.svg';
+import jsIcon from '../../Images/Project/js_logo.svg';
+import bootstrapIcon from '../../Images/Project/bootstrap_logo.svg';
+import javaIcon from '../../Images/Project/java_logo.svg';
+import bluejIcon from '../../Images/Project/bluej_logo.png';
+
 import { BsGithub } from 'react-icons/bs';
 import { BsArrowUpRightSquare } from 'react-icons/bs';
 import SlideUp from './SlideUp';
@@ -15,11 +26,10 @@ import SlideUp from './SlideUp';
 const projectsList = [
     {
         name: "Socially",
-        description: 'More people are suffering from social anxiety post-COVID. \
-                    This mobile app created with React Native, Tailwind CSS, Native Wind & Django (REST API) aims to help users \
-                    overcome their social anxiety by providing them with a platform to practice their social skills.',
-        image: quizPlatform,
-        tech: [reactIcon, tailwindIcon, firebaseIcon, figmaIcon],
+        description: 'React Native app created for UNIHACK 2023 to help encourage people to become social butterflies through topic and prompt generation. \
+                      Completed in less than 48 hours!',
+        image: sociallyApp, 
+        tech: [reactIcon, nativewindIcon, tailwindIcon, djangoIcon],
         github: 'https://github.com/sangvo235/socially-repo',
         link: 'https://devpost.com/software/socially-xe5619',
     },  
@@ -27,10 +37,37 @@ const projectsList = [
         name: "Bus Replacement Mobile App",
         description: 'Mobile app that digitalises the daily tasks of bus replacement ground staff by retrieving real-time data. \
         Built with React Native, Tailwind, Google Firebase/API and hosted on Expo.',
-        image: portfolioWebsite,
+        image: busApp,
         tech: [reactIcon, tailwindIcon, firebaseIcon, figmaIcon],
         github: 'https://github.com/sangvo235/Melbourne_Transit',
         link: 'https://github.com/sangvo235/Melbourne_Transit',
+    },
+    {
+        name: "Instatute Quiz Platform",
+        description: 'A full-stack quiz platform aimed at increasing gamification. \
+                      Has 3 different user types with dyamic creation of quizzes and questions.',
+        image: quizPlatform,
+        tech: [htmlIcon, cssIcon, jsIcon, bootstrapIcon, djangoIcon, figmaIcon],
+        github: 'https://github.com/JATTYz/Quiz-Application-Django-Project',
+        link: 'https://github.com/JATTYz/Quiz-Application-Django-Project',
+    },
+    {
+        name: "Portfolio (No Framework)",
+        description: 'Built with pure HTML/CSS/JS demonstrating comprehension on front-end web development. \
+                      Includes parallax scrolling, hamburger menu and dynamic cross device compatibility.',
+        image: portfolioWebsite,
+        tech: [htmlIcon, cssIcon, jsIcon],
+        github: 'https://github.com/sangvo235/sangvo235.github.io',
+        link: 'https://sangvo235.github.io',
+    },
+    {
+        name: "Parking Slot System",
+        description: 'Transformed from console (text-based) to GUI through implementing Java Swing. \
+                      Enabling users to search, display parking time, add or delete parking slots/cars.',
+        image: parkingApp,
+        tech: [javaIcon, bluejIcon],
+        github: 'https://github.com/sangvo235/Parking_Slot_System_GUI',
+        link: 'https://github.com/sangvo235/Parking_Slot_System_GUI',
     },
 ]
 
@@ -52,9 +89,7 @@ const Projects = () => {
                                             <Image 
                                                 src={project.image} 
                                                 alt='project-image' 
-                                                className='rounded-xl shadow-xl hover:opacity-70' 
-                                                width={1000} 
-                                                height={1000} 
+                                                className='rounded-xl shadow-xl hover:opacity-70 max-h-72 w-full object-scale-down' 
                                             />
                                         </a>
                                     </div>
@@ -80,10 +115,10 @@ const Projects = () => {
                                         </div>
                                         <div className='flex flex-row align-bottom space-x-4'>
                                             <a href={project.github} target='_blank'>
-                                                <BsGithub size={30} className='hover:text-sky-700 hover:-translate-y-1 transition-transform cursor-pointer' />
+                                                <BsGithub className='w-10 h-10 hover:text-sky-700 hover:-translate-y-1 transition-transform cursor-pointer' />
                                             </a>
                                             <a href={project.link} target='_black'>
-                                                <BsArrowUpRightSquare size={30} className='hover:text-sky-700 hover:-translate-y-1 transition-transform cursor-pointer' />
+                                                <BsArrowUpRightSquare className='w-10 h-10 hover:text-sky-700 hover:-translate-y-1 transition-transform cursor-pointer' />
                                             </a>
                                         </div>
                                     </div>

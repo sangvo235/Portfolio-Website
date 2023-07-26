@@ -72,6 +72,38 @@
         "async": false
       }
     },
+    "(app-client)/./src/Images/Project/bluej_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Project/bluej_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Project/bootstrap_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Project/bootstrap_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Project/css_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Project/css_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Project/django_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Project/django_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/Images/Project/figma_logo.svg": {
       "*": {
         "id": "(sc_client)/./src/Images/Project/figma_logo.svg",
@@ -83,6 +115,46 @@
     "(app-client)/./src/Images/Project/firebase_logo.svg": {
       "*": {
         "id": "(sc_client)/./src/Images/Project/firebase_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Project/html_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Project/html_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Project/java_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Project/java_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Project/js_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Project/js_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Project/nativewind_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Project/nativewind_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Project/parking_system.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Project/parking_system.png",
         "name": "*",
         "chunks": [],
         "async": false
@@ -411,6 +483,38 @@
       ],
       "async": false
     },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/bluej_logo.png": {
+      "id": "(app-client)/./src/Images/Project/bluej_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/bootstrap_logo.svg": {
+      "id": "(app-client)/./src/Images/Project/bootstrap_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/css_logo.svg": {
+      "id": "(app-client)/./src/Images/Project/css_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/django_logo.svg": {
+      "id": "(app-client)/./src/Images/Project/django_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/figma_logo.svg": {
       "id": "(app-client)/./src/Images/Project/figma_logo.svg",
       "name": "*",
@@ -421,6 +525,46 @@
     },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/firebase_logo.svg": {
       "id": "(app-client)/./src/Images/Project/firebase_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/html_logo.svg": {
+      "id": "(app-client)/./src/Images/Project/html_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/java_logo.svg": {
+      "id": "(app-client)/./src/Images/Project/java_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/js_logo.svg": {
+      "id": "(app-client)/./src/Images/Project/js_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/nativewind_logo.svg": {
+      "id": "(app-client)/./src/Images/Project/nativewind_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/parking_system.png": {
+      "id": "(app-client)/./src/Images/Project/parking_system.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"

@@ -540,6 +540,15 @@ video {
 .ml-4 {
   margin-left: 1rem;
 }
+.ml-10 {
+  margin-left: 2.5rem;
+}
+.ml-2 {
+  margin-left: 0.5rem;
+}
+.ml-1 {
+  margin-left: 0.25rem;
+}
 .block {
   display: block;
 }
@@ -567,6 +576,49 @@ video {
 .h-5 {
   height: 1.25rem;
 }
+.h-1\/2 {
+  height: 50%;
+}
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+.h-1\/3 {
+  height: 33.333333%;
+}
+.h-2\/3 {
+  height: 66.666667%;
+}
+.h-1\/4 {
+  height: 25%;
+}
+.h-full {
+  height: 100%;
+}
+.h-96 {
+  height: 24rem;
+}
+.h-64 {
+  height: 16rem;
+}
+.h-52 {
+  height: 13rem;
+}
+.h-72 {
+  height: 18rem;
+}
+.max-h-60 {
+  max-height: 15rem;
+}
+.max-h-80 {
+  max-height: 20rem;
+}
+.max-h-96 {
+  max-height: 24rem;
+}
+.max-h-72 {
+  max-height: 18rem;
+}
 .w-6 {
   width: 1.5rem;
 }
@@ -581,6 +633,25 @@ video {
 }
 .w-5 {
   width: 1.25rem;
+}
+.w-1\/2 {
+  width: 50%;
+}
+.w-1 {
+  width: 0.25rem;
+}
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+.w-1\/4 {
+  width: 25%;
+}
+.w-2\/3 {
+  width: 66.666667%;
+}
+.w-64 {
+  width: 16rem;
 }
 .max-w-3xl {
   max-width: 48rem;
@@ -632,6 +703,9 @@ video {
 }
 .flex-col {
   flex-direction: column;
+}
+.content-center {
+  align-content: center;
 }
 .items-center {
   align-items: center;
@@ -701,9 +775,25 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(13 148 136 / var(--tw-bg-opacity));
 }
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
 .object-scale-down {
   -o-object-fit: scale-down;
      object-fit: scale-down;
+}
+.object-center {
+  -o-object-position: center;
+     object-position: center;
 }
 .p-2 {
   padding: 0.5rem;
@@ -926,6 +1016,10 @@ video {
     display: none;
   }
 
+  .md\:h-3\/4 {
+    height: 75%;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -936,6 +1030,19 @@ video {
 
   .md\:w-4\/5 {
     width: 80%;
+  }
+
+  .md\:w-3\/4 {
+    width: 75%;
+  }
+
+  .md\:w-1\/4 {
+    width: 25%;
+  }
+
+  .md\:w-max {
+    width: -moz-max-content;
+    width: max-content;
   }
 
   .md\:max-w-5xl {
@@ -956,6 +1063,10 @@ video {
 
   .md\:justify-start {
     justify-content: flex-start;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
   }
 
   .md\:gap-12 {
