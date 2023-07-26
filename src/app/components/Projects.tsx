@@ -2,6 +2,7 @@
 import React from 'react'
 import Image, { StaticImageData } from 'next/image';
 import quizPlatform from '../../Images/Project/quiz_platform.png';
+import portfolioWebsite from '../../Images/Project/portfolio_website.png';
 import busApp from '../../Images/Project/bus_app.gif';
 import reactIcon from '../../Images/Project/react_logo.svg';
 import tailwindIcon from '../../Images/Project/tailwind_logo.svg';
@@ -26,7 +27,7 @@ const projectsList = [
         name: "Bus Replacement Mobile App",
         description: 'Mobile app that digitalises the daily tasks of bus replacement ground staff by retrieving real-time data. \
         Built with React Native, Tailwind, Google Firebase/API and hosted on Expo.',
-        image: busApp,
+        image: portfolioWebsite,
         tech: [reactIcon, tailwindIcon, firebaseIcon, figmaIcon],
         github: 'https://github.com/sangvo235/Melbourne_Transit',
         link: 'https://github.com/sangvo235/Melbourne_Transit',
@@ -64,12 +65,25 @@ const Projects = () => {
                                         <p className='text-md leading-7 mb-4 text-neutral-600 dark:text-neutral-400'>
                                             {project.description}
                                         </p>
+                                        <div className='flex flex-row mb-4 align-bottom space-x-4'>
+                                            {project.tech.map((tech, idx) => {
+                                                return (
+                                                    <Image 
+                                                        src={tech} 
+                                                        alt='tech-icon' 
+                                                        className='inline-block object-scale-down w-10 h-10' 
+                                                        key={idx}
+                                                    />
+                                                )
+                                            }
+                                            )}
+                                        </div>
                                         <div className='flex flex-row align-bottom space-x-4'>
                                             <a href={project.github} target='_blank'>
-                                                <BsGithub size={30} className='hover:-translate-y-1 transition-transform cursor-pointer' />
+                                                <BsGithub size={30} className='hover:text-sky-700 hover:-translate-y-1 transition-transform cursor-pointer' />
                                             </a>
                                             <a href={project.link} target='_black'>
-                                                <BsArrowUpRightSquare size={30} className='hover:-translate-y-1 transition-transform cursor-pointer' />
+                                                <BsArrowUpRightSquare size={30} className='hover:text-sky-700 hover:-translate-y-1 transition-transform cursor-pointer' />
                                             </a>
                                         </div>
                                     </div>
