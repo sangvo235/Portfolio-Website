@@ -1,5 +1,5 @@
 "use client";
-import { Card, Text, Badge, Button, Group } from '@mantine/core';
+import { Card, Text, Group } from '@mantine/core';
 import Image, { StaticImageData } from 'next/image';
 import swinburne from '../../Images/swinburne_logo.jpg';
 import tum from '../../Images/tum_logo.jpeg';

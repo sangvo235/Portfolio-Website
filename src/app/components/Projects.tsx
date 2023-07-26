@@ -6,6 +6,7 @@ import { BsArrowUpRightSquare } from 'react-icons/bs';
 import SlideUp from './SlideUp';
 
 // Project Images
+import portfolioUpdated from '../../Images/Project/portfolio_updated.png';
 import rccaApp from '../../Images/Project/rcca_app.png';
 import sociallyApp from '../../Images/Project/socially_app.gif';
 import busApp from '../../Images/Project/bus_app.gif';
@@ -26,19 +27,20 @@ import jsIcon from '../../Images/Project/js_logo.svg';
 import bootstrapIcon from '../../Images/Project/bootstrap_logo.svg';
 import javaIcon from '../../Images/Project/java_logo.svg';
 import gitIcon from '../../Images/Project/git_logo.svg';
+import typescriptIcon from '../../Images/Project/typescript_logo.svg';
+import vercelIcon from '../../Images/Project/vercel_logo.svg';
 import bluejIcon from '../../Images/Project/bluej_logo.png';
 import mantineIcon from '../../Images/Project/mantine_logo.png';
 import astroIcon from '../../Images/Project/astro_logo.png';
 import nextjsIcon from '../../Images/Project/nextjs_logo.png';
-import awsIcon from '../../Images/Project/aws_logo.png';
 
 const projectsList = [
     {
         name: "Portfolio (Using Framework)",
-        description: 'Developed a portfolio website using Nextjs and hosted on AWS. \
+        description: 'Developed a portfolio website using Nextjs and deployed on Vercel. \
                       Dark-mode feature, added animations and responsive design for cross-device compatibility.',
-        image: quizPlatform, 
-        tech: [nextjsIcon, reactIcon, mantineIcon, tailwindIcon, gitIcon, awsIcon],
+        image: portfolioUpdated, 
+        tech: [nextjsIcon, typescriptIcon, reactIcon, mantineIcon, tailwindIcon, gitIcon, vercelIcon],
         github: 'https://github.com/JATTYz/TIP-Project-2023',
         link: 'https://github.com/JATTYz/TIP-Project-2023',
     }, 
@@ -125,7 +127,7 @@ const Projects = () => {
                                         <h1 className='text-3xl font-bold mb-4'>
                                             {project.name}
                                         </h1>
-                                        <p className='text-md leading-7 mb-4 text-neutral-600 dark:text-neutral-400'>
+                                        <p className='text-md leading-7 mb-4 text-neutral-500 dark:text-neutral-100'>
                                             {project.description}
                                         </p>
                                         <div className='flex flex-row mb-4 align-bottom space-x-4'>
