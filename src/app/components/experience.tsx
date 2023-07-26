@@ -7,6 +7,7 @@ import easyMonitor from '../../Images/easy_monitor_logo.jpeg';
 import datacom from '../../Images/datacom_logo.png';
 import { HiArrowDown } from 'react-icons/hi';
 import { Link } from 'react-scroll';
+import SlideUp from './SlideUp';
 
 const experienceList = [
   {
@@ -103,25 +104,31 @@ function AccordionLabel({ image, title, company, date, description, skills}: Acc
 
 export default function Experience() {
   const items = experienceList.map((item) => (
-    <Accordion.Item value={item.id} key={item.title}>
-      <Accordion.Control>
-        <AccordionLabel {...item} />
-      </Accordion.Control>
-      <Accordion.Panel>
-        <div className='dark:text-black'>
-        <Text size="sm" mx={32}>{item.description}</Text>
-        {item.skills && (
-          <div className="mt-4 text-center">
-            {item.skills.map((skill) => (
-              <Badge key={skill} variant="gradient" gradient={{ from: 'cyan', to: 'teal' }} className="mr-2 mb-2">
-                {skill}
-              </Badge>
-            ))}
-          </div>
-        )}
+    <div className='pb-6'>
+      <SlideUp offset='-300px 0px -300px 0px'>
+        <div className='border border-gray-200 rounded-lg shadow-md'>
+          <Accordion.Item value={item.id} key={item.title} className='animate-slideUpCubiBezier animation-delay-2'>
+            <Accordion.Control>
+              <AccordionLabel {...item} />
+            </Accordion.Control>
+            <Accordion.Panel>
+              <div className='dark:text-black'>
+              <Text size="sm" mx={32}>{item.description}</Text>
+              {item.skills && (
+                <div className="mt-4 text-center">
+                  {item.skills.map((skill) => (
+                    <Badge key={skill} variant="gradient" gradient={{ from: 'cyan', to: 'teal' }} className="mr-2 mb-2">
+                      {skill}
+                    </Badge>
+                  ))}
+                </div>
+              )}
+              </div>
+            </Accordion.Panel>
+          </Accordion.Item>
         </div>
-      </Accordion.Panel>
-    </Accordion.Item>
+      </SlideUp>
+    </div>
   ));
   
     return (
@@ -137,18 +144,20 @@ export default function Experience() {
               {items}
           </Accordion>
 
-          <div className='flex flex-row justify-center mt-12'>
-            <Link 
-                to='education'
-                activeClass='active'
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-            >
-                <HiArrowDown size={35} className='animate-bounce' />
-            </Link>    
-          </div> 
+          <SlideUp offset='-300px 0px -300px 0px'>
+            <div className='flex flex-row justify-center mt-12 animate-slideUpCubiBezier animation-delay-2'>
+              <Link 
+                  to='education'
+                  activeClass='active'
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+              >
+                  <HiArrowDown size={35} className='animate-bounce' />
+              </Link>    
+            </div> 
+          </SlideUp>
         </div>
       </section>
   );
