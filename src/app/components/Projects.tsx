@@ -1,11 +1,19 @@
 "use client";
 import React from 'react'
 import Image, { StaticImageData } from 'next/image';
+import { BsGithub } from 'react-icons/bs';
+import { BsArrowUpRightSquare } from 'react-icons/bs';
+import SlideUp from './SlideUp';
+
+// Project Images
+import rccaApp from '../../Images/Project/rcca_app.png';
+import sociallyApp from '../../Images/Project/socially_app.gif';
+import busApp from '../../Images/Project/bus_app.gif';
 import quizPlatform from '../../Images/Project/quiz_platform.png';
 import portfolioWebsite from '../../Images/Project/portfolio_website.png';
-import busApp from '../../Images/Project/bus_app.gif';
-import sociallyApp from '../../Images/Project/socially_app.gif';
 import parkingApp from '../../Images/Project/parking_system.png';
+
+// Techology Icons
 import reactIcon from '../../Images/Project/react_logo.svg';
 import tailwindIcon from '../../Images/Project/tailwind_logo.svg';
 import firebaseIcon from '../../Images/Project/firebase_logo.svg';
@@ -17,22 +25,30 @@ import htmlIcon from '../../Images/Project/html_logo.svg';
 import jsIcon from '../../Images/Project/js_logo.svg';
 import bootstrapIcon from '../../Images/Project/bootstrap_logo.svg';
 import javaIcon from '../../Images/Project/java_logo.svg';
+import gitIcon from '../../Images/Project/git_logo.svg';
 import bluejIcon from '../../Images/Project/bluej_logo.png';
 import mantineIcon from '../../Images/Project/mantine_logo.png';
 import astroIcon from '../../Images/Project/astro_logo.png';
-
-import { BsGithub } from 'react-icons/bs';
-import { BsArrowUpRightSquare } from 'react-icons/bs';
-import SlideUp from './SlideUp';
+import nextjsIcon from '../../Images/Project/nextjs_logo.png';
+import awsIcon from '../../Images/Project/aws_logo.png';
 
 const projectsList = [
+    {
+        name: "Portfolio (Using Framework)",
+        description: 'Developed a portfolio website using Nextjs and hosted on AWS. \
+                      Dark-mode feature, added animations and responsive design for cross-device compatibility.',
+        image: quizPlatform, 
+        tech: [nextjsIcon, reactIcon, mantineIcon, tailwindIcon, gitIcon, awsIcon],
+        github: 'https://github.com/JATTYz/TIP-Project-2023',
+        link: 'https://github.com/JATTYz/TIP-Project-2023',
+    }, 
     {
         name: "Rover Car Club of Australia",
         description: 'Develop a web application for RCCA. \
                       Allowing users to upload and search rover related records. \
                       Overview of database record, data analytics and submitted files pending approval enabled via admin dashboard.',
-        image: sociallyApp, 
-        tech: [astroIcon, reactIcon, mantineIcon, tailwindIcon, firebaseIcon, figmaIcon],
+        image: rccaApp, 
+        tech: [astroIcon, reactIcon, mantineIcon, tailwindIcon, firebaseIcon, gitIcon, figmaIcon],
         github: 'https://github.com/JATTYz/TIP-Project-2023',
         link: 'https://github.com/JATTYz/TIP-Project-2023',
     }, 
@@ -46,7 +62,7 @@ const projectsList = [
         link: 'https://devpost.com/software/socially-xe5619',
     },  
     {
-        name: "Bus Replacement Mobile App",
+        name: "Melbourne Transit",
         description: 'Mobile app that digitalises the daily tasks of bus replacement ground staff by retrieving real-time data. \
         Built with React Native, Tailwind, Google Firebase/API and hosted on Expo.',
         image: busApp,
