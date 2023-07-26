@@ -72,6 +72,46 @@
         "async": false
       }
     },
+    "(app-client)/./src/Images/Project/figma_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Project/figma_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Project/firebase_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Project/firebase_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Project/quiz_platform.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Project/quiz_platform.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Project/react_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Project/react_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Project/tailwind_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Project/tailwind_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/Images/datacom_logo.png": {
       "*": {
         "id": "(sc_client)/./src/Images/datacom_logo.png",
@@ -155,6 +195,14 @@
     "(app-client)/./src/app/components/Education.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/components/Education.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/Projects.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/Projects.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -347,6 +395,46 @@
       ],
       "async": false
     },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/figma_logo.svg": {
+      "id": "(app-client)/./src/Images/Project/figma_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/firebase_logo.svg": {
+      "id": "(app-client)/./src/Images/Project/firebase_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/quiz_platform.png": {
+      "id": "(app-client)/./src/Images/Project/quiz_platform.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/react_logo.svg": {
+      "id": "(app-client)/./src/Images/Project/react_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/tailwind_logo.svg": {
+      "id": "(app-client)/./src/Images/Project/tailwind_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/datacom_logo.png": {
       "id": "(app-client)/./src/Images/datacom_logo.png",
       "name": "*",
@@ -445,6 +533,14 @@
     },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/components/Education.tsx": {
       "id": "(app-client)/./src/app/components/Education.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/components/Projects.tsx": {
+      "id": "(app-client)/./src/app/components/Projects.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"

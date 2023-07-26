@@ -36,24 +36,28 @@ const Projects = () => {
         <div className='my-12 pb-12 md:pt-16 md:pb-48'>
             <h1 className='text-center font-semibold text-3xl my-10 md:text-5xl'>Projects</h1>
             <hr className="w-6 h-1 mx-auto mb-12 bg-teal-500 border-0 rounded"></hr>
-        </div>
 
-        <div className='flex flex-col space-y-28'>
-            {projectsList.map((project, idx) => {
-                return (
-                    <div key={idx}>
-                        <div className='flex flex-col md:flex-row md:space-x-12'>
-                            <div className='md:w-1/2'>
-                                <Image src={project.image} alt='project-image' className='rounded-full' width={100} height={100} />
-                     
-
+            <div className='flex flex-col space-y-28'>
+                {projectsList.map((project, idx) => {
+                    return (
+                        <div key={idx}>
+                            <div className='flex flex-col md:flex-row md:space-x-12'>
+                                <div className='md:w-1/2'>
+                                    <Image 
+                                        src={project.image} 
+                                        alt='project-image' 
+                                        className='rounded-xl shadow-xl hover:opacity-70' 
+                                        width={1000} 
+                                        height={1000} 
+                                    />
+                                </div>
+                                <div className='md:w-1/2'></div>
                             </div>
-                            <div></div>
                         </div>
-                    </div>
-                )
-            }}
-        </div>        
+                    )
+                })}
+            </div>    
+        </div>    
     </section>
   )
 }
