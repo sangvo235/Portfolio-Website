@@ -127,7 +127,8 @@ export default function Experience() {
     return (
       <section id="experience">
         <div className='my-12 pb-12 md:pt-16 md:pb-48'>
-          <h1 className='text-center font-semibold text-3xl mb-12 md:text-5xl'>Experience</h1>
+          <h1 className='text-center font-semibold text-3xl my-10 md:text-5xl'>Experience</h1>
+          <hr className="w-6 h-1 mx-auto mb-12 bg-teal-500 border-0 rounded"></hr>
           <Accordion 
             chevronPosition="right" 
             variant="separated" 
