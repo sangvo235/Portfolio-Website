@@ -34,7 +34,7 @@ export const Bio = () => {
                                 'Master of IT Student',
                                 'Software Developer',
                                 '☕ Lover',
-                                '🗺️ Traveler',
+                                'World Traveler',
                                 'Fragrance Collector',
                                 'Gelato Connoisseur', 
                             ],
