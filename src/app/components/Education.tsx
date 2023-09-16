@@ -10,6 +10,15 @@ import SlideUp from './SlideUp';
 
 const educationList = [
   {
+    id: 'tum',
+    image: tum,
+    degree: 'Master of Informatics - Winter Semester Exchange',
+    name: 'Technical University of Munich',
+    date: 'Oct 2023 - Current',
+    description: '',
+  },
+
+  {
     id: 'swinburne',
     image: swinburne,
     degree: 'Master of Information Technology (Software Development)',
@@ -19,20 +28,11 @@ const educationList = [
   },
 
   {
-    id: 'tum',
-    image: tum,
-    degree: 'Winter Semester Exchange (Master of Information Technology)',
-    name: 'Technical University of Munich',
-    date: 'Oct 2023 - Mar 2024',
-    description: '',
-  },
-
-  {
     id: 'monash',
     image: monash,
     degree: 'Bachelor of Commerce (Finance)',
     name: 'Monash University',
-    date: 'Feb 2017 - Nov 2021',
+    date: '2017 - 2021',
     description: '',
   },
 ];
