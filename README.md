@@ -1,8 +1,9 @@
-# Sang Vo - Portfolio Website
+# Sang Vo - Portfolio Website (https://sang-vo.vercel.app)
 
 Portfolio website developed using Nextjs and deployed on Vercel.
-- https://sang-vo.vercel.app
-- Dark-mode feature, added animations and responsive design for cross-device compatibility.
+- Dark-mode feature
+- Added animations
+- Responsive design for cross-device compatibility
 
 ## Technologies Used
 - Nextjs
@@ -12,5 +13,3 @@ Portfolio website developed using Nextjs and deployed on Vercel.
 - Tailwind
 - Git
 - Vercel
-
-<div style="width:100%;height:0;padding-bottom:51%;position:relative;"><iframe src="https://giphy.com/embed/6xE1FNcorRInS" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/funny-lol-college-6xE1FNcorRInS">via GIPHY</a></p>
