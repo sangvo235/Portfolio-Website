@@ -22,7 +22,7 @@ export const Bio = () => {
                 />
             </div>
 
-            <div className='my-6 font-semibold text-3xl md:text-5xl md:mt-2 md:w-4/5'>
+            <div className='my-6 font-semibold text-2xl md:text-4xl md:mt-2 md:w-4/5 lg:text-5xl'>
                 <h1 className='md:pr-32'>Hello, I'm Sang!</h1>
 
                 <div className='inline-flex my-6'> 
@@ -33,8 +33,8 @@ export const Bio = () => {
                             strings: [
                                 'Master of IT Student',
                                 'Software Developer',
-                                'Coffee Lover',
-                                'World Traveler',
+                                '☕ Lover',
+                                '🗺️ Traveler',
                                 'Fragrance Collector',
                                 'Gelato Connoisseur', 
                             ],
