@@ -28,7 +28,7 @@ import bootstrapIcon from '../../Images/Project/bootstrap_logo.svg';
 import javaIcon from '../../Images/Project/java_logo.svg';
 import gitIcon from '../../Images/Project/git_logo.svg';
 import typescriptIcon from '../../Images/Project/typescript_logo.svg';
-import vercelIcon from '../../Images/Project/vercel_logo.svg';
+import vercelIcon from '../../Images/Project/vercel_logo.png';
 import bluejIcon from '../../Images/Project/bluej_logo.png';
 import mantineIcon from '../../Images/Project/mantine_logo.png';
 import astroIcon from '../../Images/Project/astro_logo.png';
