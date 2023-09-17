@@ -56,22 +56,6 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/components/Navbar.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/components/Navbar.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/layout.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/layout.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./src/Images/Project/astro_logo.png": {
       "*": {
         "id": "(sc_client)/./src/Images/Project/astro_logo.png",
@@ -248,9 +232,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/vercel_logo.svg": {
+    "(app-client)/./src/Images/Project/vercel_logo.png": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/vercel_logo.svg",
+        "id": "(sc_client)/./src/Images/Project/vercel_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
@@ -363,6 +347,22 @@
     "(app-client)/./src/app/components/experience.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/components/experience.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/Navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/Navbar.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/layout.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/layout.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -528,22 +528,6 @@
       "name": "*",
       "chunks": [
         "app-client-internals:static/chunks/app-client-internals.js"
-      ],
-      "async": false
-    },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/components/Navbar.tsx": {
-      "id": "(app-client)/./src/app/components/Navbar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/layout.tsx": {
-      "id": "(app-client)/./src/app/layout.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -723,8 +707,8 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/vercel_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/vercel_logo.svg",
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/vercel_logo.png": {
+      "id": "(app-client)/./src/Images/Project/vercel_logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -858,9 +842,29 @@
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/components/Navbar.tsx": {
+      "id": "(app-client)/./src/app/components/Navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/layout.tsx": {
+      "id": "(app-client)/./src/app/layout.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
+    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/page": {
+      "modules": [],
+      "files": []
+    },
     "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/layout": {
       "modules": [
         "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/globals.css",
@@ -869,10 +873,6 @@
       "files": [
         "static/css/app/layout.css"
       ]
-    },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/page": {
-      "modules": [],
-      "files": []
     }
   }
 }
