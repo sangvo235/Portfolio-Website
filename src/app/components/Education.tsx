@@ -10,21 +10,21 @@ import SlideUp from './SlideUp';
 
 const educationList = [
   {
-    id: 'tum',
-    image: tum,
-    degree: 'Master of Informatics - Winter Semester Exchange',
-    name: 'Technical University of Munich',
-    date: 'Oct 2023 - Current',
-    description: '',
-  },
-
-  {
     id: 'swinburne',
     image: swinburne,
     degree: 'Master of Information Technology (Software Development)',
     name: 'Swinburne University of Technology',
-    date: 'Feb 2022 - Current',
+    date: 'Feb 2022 - Jul 2024 (Expected)',
     description: 'GPA: 4.0/4.0, WAM: 86.27/100',
+  },
+
+  {
+    id: 'tum',
+    image: tum,
+    degree: 'Master of Informatics - Exchange Program',
+    name: 'Technical University of Munich',
+    date: '2023 - 2024',
+    description: '',
   },
 
   {
