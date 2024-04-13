@@ -13,8 +13,8 @@ export const Footer = () => {
                 <a href="https://www.linkedin.com/in/sangvo235/" target="_blank" title="linkedin">
                     <AiFillLinkedin className="hover:text-sky-700 hover:-translate-y-1 transition-transform cursor-pointer"/>
                 </a>
-                <a href="https://github.com/sangvo235">
-                    <AiFillGithub className="hover:text-sky-700 hover:-translate-y-1 transition-transform cursor-pointer" target="_blank" title="github"/>
+                <a href="https://github.com/sangvo235" target="_blank" title="github">
+                    <AiFillGithub className="hover:text-sky-700 hover:-translate-y-1 transition-transform cursor-pointer"/>
                 </a>
                 <a href="mailto:sangvo235@gmail.com" target="_blank" title="email">
                     <AiFillMail className="hover:text-sky-700 hover:-translate-y-1 transition-transform cursor-pointer"/>
