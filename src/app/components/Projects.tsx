@@ -53,8 +53,8 @@ const projectsList = [
                       Built with Next.js, Tailwind, Django, Postgres, Docker and deployed via Digital Ocean and nginx.',
         image: smartrecruitApp, 
         tech: [nextjsIcon, typescriptIcon, tailwindIcon, shadcnIcon, djangoIcon, pythonIcon, nodejsIcon, jsonlIcon, nltkIcon, postgreSQLIcon, dockerIcon, digitaloceanIcon, nginxIcon, gunicornIcon, gitIcon, npmIcon],
-        github: 'https://github.com/sangvo235/Portfolio-Website',
-        link: 'https://sang-vo.vercel.app',
+        github: 'https://github.com/sangvo235/SmartRecruit',
+        link: 'http://170.64.172.207',
     }, 
     {
         name: "Portfolio (Using Framework)",
@@ -144,7 +144,7 @@ const Projects = () => {
                                             />
                                         </a>
                                     </div>
-                                    <div className='mt-12 md:w-1/2'>
+                                    <div className='mt-8 md:w-1/2'>
                                         <h1 className='text-3xl font-bold mb-4'>
                                             {project.name}
                                         </h1>
@@ -193,4 +193,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Projects;

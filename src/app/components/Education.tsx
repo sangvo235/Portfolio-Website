@@ -14,7 +14,7 @@ const educationList = [
     image: swinburne,
     degree: 'Master of Information Technology (Software Development)',
     name: 'Swinburne University of Technology',
-    date: 'Feb 2022 - Jul 2024 (Expected)',
+    date: 'Feb 2022 - Jun 2024 (Expected)',
     description: 'GPA: 4.0/4.0, WAM: 86.27/100',
   },
 
