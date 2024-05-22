@@ -24,7 +24,12 @@ const educationList = [
     degree: 'Master of Informatics - Exchange Program',
     name: 'Technical University of Munich',
     date: '2023 - 2024',
-    description: '',
+    description: (
+      <ul>
+        <li> ▪ Collaboratively enhanced a big data analytics tool with Maltego Technologies.</li>
+        <li> ▪ Optimizing performance and UI usability by utilizing Vite.js, Typescript, Tailwind CSS, Slack, Notion and Linear.</li>
+      </ul>
+    ),  
   },
 
   {
