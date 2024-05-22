@@ -56,113 +56,233 @@
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/astro_logo.png": {
+    "(app-client)/./src/Images/Icons/astro_logo.png": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/astro_logo.png",
+        "id": "(sc_client)/./src/Images/Icons/astro_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/bluej_logo.png": {
+    "(app-client)/./src/Images/Icons/bluej_logo.png": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/bluej_logo.png",
+        "id": "(sc_client)/./src/Images/Icons/bluej_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/bootstrap_logo.svg": {
+    "(app-client)/./src/Images/Icons/bootstrap_logo.svg": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/bootstrap_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/bootstrap_logo.svg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/css_logo.svg": {
+    "(app-client)/./src/Images/Icons/css_logo.svg": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/css_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/css_logo.svg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/django_logo.svg": {
+    "(app-client)/./src/Images/Icons/digitalocean_logo.png": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/django_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/digitalocean_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/figma_logo.svg": {
+    "(app-client)/./src/Images/Icons/django_logo.png": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/figma_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/django_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/firebase_logo.svg": {
+    "(app-client)/./src/Images/Icons/docker_logo.png": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/firebase_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/docker_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/git_logo.svg": {
+    "(app-client)/./src/Images/Icons/figma_logo.svg": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/git_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/figma_logo.svg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/html_logo.svg": {
+    "(app-client)/./src/Images/Icons/firebase_logo.svg": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/html_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/firebase_logo.svg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/java_logo.svg": {
+    "(app-client)/./src/Images/Icons/git_logo.svg": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/java_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/git_logo.svg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/js_logo.svg": {
+    "(app-client)/./src/Images/Icons/gunicorn_logo.png": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/js_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/gunicorn_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/mantine_logo.png": {
+    "(app-client)/./src/Images/Icons/html_logo.svg": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/mantine_logo.png",
+        "id": "(sc_client)/./src/Images/Icons/html_logo.svg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/nativewind_logo.svg": {
+    "(app-client)/./src/Images/Icons/java_logo.svg": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/nativewind_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/java_logo.svg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/nextjs_logo.png": {
+    "(app-client)/./src/Images/Icons/js_logo.svg": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/nextjs_logo.png",
+        "id": "(sc_client)/./src/Images/Icons/js_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/jsonl_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/jsonl_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/mantine_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/mantine_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/nativewind_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/nativewind_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/nextjs_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/nextjs_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/nginx_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/nginx_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/nltk_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/nltk_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/nodejs_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/nodejs_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/npm_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/npm_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/postgresql_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/postgresql_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/python_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/python_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/react_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/react_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/shadcn_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/shadcn_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/tailwind_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/tailwind_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/typescript_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/typescript_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/vercel_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/vercel_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
@@ -208,41 +328,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/react_logo.svg": {
-      "*": {
-        "id": "(sc_client)/./src/Images/Project/react_logo.svg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./src/Images/Project/smartrecruit_app.png": {
       "*": {
         "id": "(sc_client)/./src/Images/Project/smartrecruit_app.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/Images/Project/tailwind_logo.svg": {
-      "*": {
-        "id": "(sc_client)/./src/Images/Project/tailwind_logo.svg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/Images/Project/typescript_logo.svg": {
-      "*": {
-        "id": "(sc_client)/./src/Images/Project/typescript_logo.svg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/Images/Project/vercel_logo.png": {
-      "*": {
-        "id": "(sc_client)/./src/Images/Project/vercel_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
@@ -539,112 +627,232 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/astro_logo.png": {
-      "id": "(app-client)/./src/Images/Project/astro_logo.png",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/astro_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/astro_logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/bluej_logo.png": {
-      "id": "(app-client)/./src/Images/Project/bluej_logo.png",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/bluej_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/bluej_logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/bootstrap_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/bootstrap_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/bootstrap_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/bootstrap_logo.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/css_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/css_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/css_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/css_logo.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/django_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/django_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/digitalocean_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/digitalocean_logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/figma_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/figma_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/django_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/django_logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/firebase_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/firebase_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/docker_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/docker_logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/git_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/git_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/figma_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/figma_logo.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/html_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/html_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/firebase_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/firebase_logo.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/java_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/java_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/git_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/git_logo.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/js_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/js_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/gunicorn_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/gunicorn_logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/mantine_logo.png": {
-      "id": "(app-client)/./src/Images/Project/mantine_logo.png",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/html_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/html_logo.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/nativewind_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/nativewind_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/java_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/java_logo.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/nextjs_logo.png": {
-      "id": "(app-client)/./src/Images/Project/nextjs_logo.png",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/js_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/js_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/jsonl_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/jsonl_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/mantine_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/mantine_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/nativewind_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/nativewind_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/nextjs_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/nextjs_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/nginx_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/nginx_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/nltk_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/nltk_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/nodejs_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/nodejs_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/npm_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/npm_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/postgresql_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/postgresql_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/python_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/python_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/react_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/react_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/shadcn_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/shadcn_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/tailwind_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/tailwind_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/typescript_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/typescript_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/vercel_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/vercel_logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -691,40 +899,8 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/react_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/react_logo.svg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/smartrecruit_app.png": {
       "id": "(app-client)/./src/Images/Project/smartrecruit_app.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/tailwind_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/tailwind_logo.svg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/typescript_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/typescript_logo.svg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/vercel_logo.png": {
-      "id": "(app-client)/./src/Images/Project/vercel_logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"

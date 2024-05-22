@@ -1,8 +1,7 @@
 "use client";
 import React from 'react'
 import Image from 'next/image';
-import { BsGithub } from 'react-icons/bs';
-import { BsArrowUpRightSquare } from 'react-icons/bs';
+import { BsArrowUpRightSquare, BsGithub } from 'react-icons/bs';
 import SlideUp from './SlideUp';
 
 // Project Images
@@ -16,24 +15,35 @@ import portfolioWebsite from '../../Images/Project/portfolio_website.png';
 import parkingApp from '../../Images/Project/parking_system.png';
 
 // Techology Icons
-import reactIcon from '../../Images/Project/react_logo.svg';
-import tailwindIcon from '../../Images/Project/tailwind_logo.svg';
-import firebaseIcon from '../../Images/Project/firebase_logo.svg';
-import figmaIcon from '../../Images/Project/figma_logo.svg';
-import djangoIcon from '../../Images/Project/django_logo.svg';
-import nativewindIcon from '../../Images/Project/nativewind_logo.svg';
-import cssIcon from '../../Images/Project/css_logo.svg';
-import htmlIcon from '../../Images/Project/html_logo.svg';
-import jsIcon from '../../Images/Project/js_logo.svg';
-import bootstrapIcon from '../../Images/Project/bootstrap_logo.svg';
-import javaIcon from '../../Images/Project/java_logo.svg';
-import gitIcon from '../../Images/Project/git_logo.svg';
-import typescriptIcon from '../../Images/Project/typescript_logo.svg';
-import vercelIcon from '../../Images/Project/vercel_logo.png';
-import bluejIcon from '../../Images/Project/bluej_logo.png';
-import mantineIcon from '../../Images/Project/mantine_logo.png';
-import astroIcon from '../../Images/Project/astro_logo.png';
-import nextjsIcon from '../../Images/Project/nextjs_logo.png';
+import astroIcon from '../../Images/Icons/astro_logo.png';
+import bluejIcon from '../../Images/Icons/bluej_logo.png';
+import bootstrapIcon from '../../Images/Icons/bootstrap_logo.svg';
+import cssIcon from '../../Images/Icons/css_logo.svg';
+import digitaloceanIcon from '../../Images/Icons/digitalocean_logo.png';
+import djangoIcon from '../../Images/Icons/django_logo.png';
+import dockerIcon from '../../Images/Icons/docker_logo.png';
+import figmaIcon from '../../Images/Icons/figma_logo.svg';
+import firebaseIcon from '../../Images/Icons/firebase_logo.svg';
+import gitIcon from '../../Images/Icons/git_logo.svg';
+import gunicornIcon from '../../Images/Icons/gunicorn_logo.png';
+import htmlIcon from '../../Images/Icons/html_logo.svg';
+import javaIcon from '../../Images/Icons/java_logo.svg';
+import jsIcon from '../../Images/Icons/js_logo.svg';
+import jsonlIcon from '../../Images/Icons/jsonl_logo.png';
+import mantineIcon from '../../Images/Icons/mantine_logo.png';
+import nativewindIcon from '../../Images/Icons/nativewind_logo.svg';
+import nextjsIcon from '../../Images/Icons/nextjs_logo.png';
+import nginxIcon from '../../Images/Icons/nginx_logo.svg';
+import nltkIcon from '../../Images/Icons/nltk_logo.png';
+import nodejsIcon from '../../Images/Icons/nodejs_logo.png';
+import npmIcon from '../../Images/Icons/npm_logo.png';
+import postgreSQLIcon from '../../Images/Icons/postgresql_logo.png';
+import pythonIcon from '../../Images/Icons/python_logo.png';
+import reactIcon from '../../Images/Icons/react_logo.svg';
+import shadcnIcon from '../../Images/Icons/shadcn_logo.png';
+import tailwindIcon from '../../Images/Icons/tailwind_logo.svg';
+import typescriptIcon from '../../Images/Icons/typescript_logo.png';
+import vercelIcon from '../../Images/Icons/vercel_logo.png';
 
 const projectsList = [
     {
@@ -42,7 +52,7 @@ const projectsList = [
                       We aim to leverage ML and a built-in online testing solution to optimize the current recruitment process. \
                       Built with Next.js, Tailwind, Django, Postgres, Docker and deployed via Digital Ocean and nginx.',
         image: smartrecruitApp, 
-        tech: [nextjsIcon, typescriptIcon, tailwindIcon, gitIcon, djangoIcon],
+        tech: [nextjsIcon, typescriptIcon, tailwindIcon, shadcnIcon, djangoIcon, pythonIcon, nodejsIcon, jsonlIcon, nltkIcon, postgreSQLIcon, dockerIcon, digitaloceanIcon, nginxIcon, gunicornIcon, gitIcon, npmIcon],
         github: 'https://github.com/sangvo235/Portfolio-Website',
         link: 'https://sang-vo.vercel.app',
     }, 
@@ -141,18 +151,27 @@ const Projects = () => {
                                         <p className='text-md leading-7 mb-4 text-neutral-500 dark:text-neutral-100'>
                                             {project.description}
                                         </p>
-                                        <div className='flex flex-row mb-4 align-bottom space-x-4'>
-                                            {project.tech.map((tech, idx) => {
-                                                return (
-                                                    <Image 
-                                                        src={tech} 
-                                                        alt='tech-icon' 
-                                                        className='inline-block object-scale-down w-10 h-10' 
-                                                        key={idx}
-                                                    />
-                                                )
-                                            }
-                                            )}
+                                        <div className='flex flex-col mb-4 align-bottom'>
+                                            {project.tech.reduce((acc, tech, idx) => {
+                                                const groupIndex = Math.floor(idx / 8);
+                                                if (!acc[groupIndex]) {
+                                                    acc[groupIndex] = [];
+                                                }
+                                                acc[groupIndex].push(
+                                                    <div className="inline-block object-scale-down w-10 h-10" key={idx}>
+                                                        <Image 
+                                                            src={tech} 
+                                                            alt='tech-icon' 
+                                                            className='w-full h-full' 
+                                                        />
+                                                    </div>
+                                                );
+                                                return acc;
+                                            }, []).map((group: JSX.Element[], groupIdx: number) => (
+                                                <div key={groupIdx} className="flex flex-row mb-4 space-x-4">
+                                                    {group}
+                                                </div>
+                                            ))}
                                         </div>
                                         <div className='flex flex-row align-bottom space-x-4'>
                                             <a href={project.github} target='_blank'>
