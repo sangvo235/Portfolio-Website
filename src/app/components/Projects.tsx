@@ -1,11 +1,12 @@
 "use client";
 import React from 'react'
-import Image, { StaticImageData } from 'next/image';
+import Image from 'next/image';
 import { BsGithub } from 'react-icons/bs';
 import { BsArrowUpRightSquare } from 'react-icons/bs';
 import SlideUp from './SlideUp';
 
 // Project Images
+import smartrecruitApp from '../../Images/Project/smartrecruit_app.png';
 import portfolioUpdated from '../../Images/Project/portfolio_updated.png';
 import rccaApp from '../../Images/Project/rcca_app.png';
 import sociallyApp from '../../Images/Project/socially_app.gif';
@@ -35,6 +36,16 @@ import astroIcon from '../../Images/Project/astro_logo.png';
 import nextjsIcon from '../../Images/Project/nextjs_logo.png';
 
 const projectsList = [
+    {
+        name: "SmartRecruit: AI-Powered Job Matching and Assessment System",
+        description: 'Deployed web application in collaboration with Smaart Recruit. \
+                      We aim to leverage ML and a built-in online testing solution to optimize the current recruitment process. \
+                      Built with Next.js, Tailwind, Django, Postgres, Docker and deployed via Digital Ocean and nginx.',
+        image: smartrecruitApp, 
+        tech: [nextjsIcon, typescriptIcon, tailwindIcon, gitIcon, djangoIcon],
+        github: 'https://github.com/sangvo235/Portfolio-Website',
+        link: 'https://sang-vo.vercel.app',
+    }, 
     {
         name: "Portfolio (Using Framework)",
         description: 'Developed a portfolio website using Nextjs and deployed on Vercel. \
