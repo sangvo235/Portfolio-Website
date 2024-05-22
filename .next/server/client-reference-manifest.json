@@ -56,113 +56,233 @@
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/astro_logo.png": {
+    "(app-client)/./src/Images/Icons/astro_logo.png": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/astro_logo.png",
+        "id": "(sc_client)/./src/Images/Icons/astro_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/bluej_logo.png": {
+    "(app-client)/./src/Images/Icons/bluej_logo.png": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/bluej_logo.png",
+        "id": "(sc_client)/./src/Images/Icons/bluej_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/bootstrap_logo.svg": {
+    "(app-client)/./src/Images/Icons/bootstrap_logo.svg": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/bootstrap_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/bootstrap_logo.svg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/css_logo.svg": {
+    "(app-client)/./src/Images/Icons/css_logo.svg": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/css_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/css_logo.svg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/django_logo.svg": {
+    "(app-client)/./src/Images/Icons/digitalocean_logo.png": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/django_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/digitalocean_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/figma_logo.svg": {
+    "(app-client)/./src/Images/Icons/django_logo.png": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/figma_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/django_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/firebase_logo.svg": {
+    "(app-client)/./src/Images/Icons/docker_logo.png": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/firebase_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/docker_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/git_logo.svg": {
+    "(app-client)/./src/Images/Icons/figma_logo.svg": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/git_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/figma_logo.svg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/html_logo.svg": {
+    "(app-client)/./src/Images/Icons/firebase_logo.svg": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/html_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/firebase_logo.svg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/java_logo.svg": {
+    "(app-client)/./src/Images/Icons/git_logo.svg": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/java_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/git_logo.svg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/js_logo.svg": {
+    "(app-client)/./src/Images/Icons/gunicorn_logo.png": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/js_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/gunicorn_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/mantine_logo.png": {
+    "(app-client)/./src/Images/Icons/html_logo.svg": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/mantine_logo.png",
+        "id": "(sc_client)/./src/Images/Icons/html_logo.svg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/nativewind_logo.svg": {
+    "(app-client)/./src/Images/Icons/java_logo.svg": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/nativewind_logo.svg",
+        "id": "(sc_client)/./src/Images/Icons/java_logo.svg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/nextjs_logo.png": {
+    "(app-client)/./src/Images/Icons/js_logo.svg": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/nextjs_logo.png",
+        "id": "(sc_client)/./src/Images/Icons/js_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/jsonl_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/jsonl_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/mantine_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/mantine_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/nativewind_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/nativewind_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/nextjs_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/nextjs_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/nginx_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/nginx_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/nltk_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/nltk_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/nodejs_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/nodejs_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/npm_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/npm_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/postgresql_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/postgresql_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/python_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/python_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/react_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/react_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/shadcn_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/shadcn_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/tailwind_logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/tailwind_logo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/typescript_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/typescript_logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/Images/Icons/vercel_logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/Images/Icons/vercel_logo.png",
         "name": "*",
         "chunks": [],
         "async": false
@@ -208,33 +328,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/Images/Project/react_logo.svg": {
+    "(app-client)/./src/Images/Project/smartrecruit_app.png": {
       "*": {
-        "id": "(sc_client)/./src/Images/Project/react_logo.svg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/Images/Project/tailwind_logo.svg": {
-      "*": {
-        "id": "(sc_client)/./src/Images/Project/tailwind_logo.svg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/Images/Project/typescript_logo.svg": {
-      "*": {
-        "id": "(sc_client)/./src/Images/Project/typescript_logo.svg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/Images/Project/vercel_logo.png": {
-      "*": {
-        "id": "(sc_client)/./src/Images/Project/vercel_logo.png",
+        "id": "(sc_client)/./src/Images/Project/smartrecruit_app.png",
         "name": "*",
         "chunks": [],
         "async": false
@@ -371,7 +467,7 @@
   },
   "edgeSSRModuleMapping": {},
   "clientModules": {
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/client/components/app-router.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -379,7 +475,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/esm/client/components/app-router.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/esm/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -387,7 +483,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/client/components/error-boundary.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -395,7 +491,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/esm/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -403,7 +499,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/client/components/redirect-boundary.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/client/components/redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -411,7 +507,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -419,7 +515,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -427,7 +523,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -435,7 +531,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/shared/lib/app-router-context.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/shared/lib/app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -443,7 +539,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -451,7 +547,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/shared/lib/hooks-client-context.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -459,7 +555,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -467,7 +563,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/shared/lib/server-inserted-html.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -475,7 +571,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -483,7 +579,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/client/components/layout-router.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -491,7 +587,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/esm/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -499,7 +595,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -507,7 +603,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -515,7 +611,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -523,7 +619,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -531,119 +627,239 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/astro_logo.png": {
-      "id": "(app-client)/./src/Images/Project/astro_logo.png",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/astro_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/astro_logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/bluej_logo.png": {
-      "id": "(app-client)/./src/Images/Project/bluej_logo.png",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/bluej_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/bluej_logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/bootstrap_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/bootstrap_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/bootstrap_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/bootstrap_logo.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/css_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/css_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/css_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/css_logo.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/django_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/django_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/digitalocean_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/digitalocean_logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/figma_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/figma_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/django_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/django_logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/firebase_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/firebase_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/docker_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/docker_logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/git_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/git_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/figma_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/figma_logo.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/html_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/html_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/firebase_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/firebase_logo.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/java_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/java_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/git_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/git_logo.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/js_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/js_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/gunicorn_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/gunicorn_logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/mantine_logo.png": {
-      "id": "(app-client)/./src/Images/Project/mantine_logo.png",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/html_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/html_logo.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/nativewind_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/nativewind_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/java_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/java_logo.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/nextjs_logo.png": {
-      "id": "(app-client)/./src/Images/Project/nextjs_logo.png",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/js_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/js_logo.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/parking_system.png": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/jsonl_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/jsonl_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/mantine_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/mantine_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/nativewind_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/nativewind_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/nextjs_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/nextjs_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/nginx_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/nginx_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/nltk_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/nltk_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/nodejs_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/nodejs_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/npm_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/npm_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/postgresql_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/postgresql_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/python_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/python_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/react_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/react_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/shadcn_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/shadcn_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/tailwind_logo.svg": {
+      "id": "(app-client)/./src/Images/Icons/tailwind_logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/typescript_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/typescript_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Icons/vercel_logo.png": {
+      "id": "(app-client)/./src/Images/Icons/vercel_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/parking_system.png": {
       "id": "(app-client)/./src/Images/Project/parking_system.png",
       "name": "*",
       "chunks": [
@@ -651,7 +867,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/portfolio_updated.png": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/portfolio_updated.png": {
       "id": "(app-client)/./src/Images/Project/portfolio_updated.png",
       "name": "*",
       "chunks": [
@@ -659,7 +875,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/portfolio_website.png": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/portfolio_website.png": {
       "id": "(app-client)/./src/Images/Project/portfolio_website.png",
       "name": "*",
       "chunks": [
@@ -667,7 +883,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/quiz_platform.png": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/quiz_platform.png": {
       "id": "(app-client)/./src/Images/Project/quiz_platform.png",
       "name": "*",
       "chunks": [
@@ -675,7 +891,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/rcca_app.png": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/rcca_app.png": {
       "id": "(app-client)/./src/Images/Project/rcca_app.png",
       "name": "*",
       "chunks": [
@@ -683,39 +899,15 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/react_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/react_logo.svg",
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/Project/smartrecruit_app.png": {
+      "id": "(app-client)/./src/Images/Project/smartrecruit_app.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/tailwind_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/tailwind_logo.svg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/typescript_logo.svg": {
-      "id": "(app-client)/./src/Images/Project/typescript_logo.svg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/Project/vercel_logo.png": {
-      "id": "(app-client)/./src/Images/Project/vercel_logo.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/datacom_logo.png": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/datacom_logo.png": {
       "id": "(app-client)/./src/Images/datacom_logo.png",
       "name": "*",
       "chunks": [
@@ -723,7 +915,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/deloitte_logo.jpg": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/deloitte_logo.jpg": {
       "id": "(app-client)/./src/Images/deloitte_logo.jpg",
       "name": "*",
       "chunks": [
@@ -731,7 +923,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/easy_monitor_logo.jpeg": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/easy_monitor_logo.jpeg": {
       "id": "(app-client)/./src/Images/easy_monitor_logo.jpeg",
       "name": "*",
       "chunks": [
@@ -739,7 +931,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/monash_logo.jpeg": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/monash_logo.jpeg": {
       "id": "(app-client)/./src/Images/monash_logo.jpeg",
       "name": "*",
       "chunks": [
@@ -747,7 +939,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/sangvo.jpeg": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/sangvo.jpeg": {
       "id": "(app-client)/./src/Images/sangvo.jpeg",
       "name": "*",
       "chunks": [
@@ -755,7 +947,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/swinburne_logo.jpg": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/swinburne_logo.jpg": {
       "id": "(app-client)/./src/Images/swinburne_logo.jpg",
       "name": "*",
       "chunks": [
@@ -763,7 +955,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/Images/tum_logo.jpeg": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/Images/tum_logo.jpeg": {
       "id": "(app-client)/./src/Images/tum_logo.jpeg",
       "name": "*",
       "chunks": [
@@ -771,7 +963,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/client/image.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/client/image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
@@ -779,7 +971,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/esm/client/image.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/esm/client/image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
@@ -787,7 +979,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/shared/lib/head.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/shared/lib/head.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
@@ -795,7 +987,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/dist/esm/shared/lib/head.js": {
+    "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/dist/esm/shared/lib/head.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
@@ -803,7 +995,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/components/Bio.tsx": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/app/components/Bio.tsx": {
       "id": "(app-client)/./src/app/components/Bio.tsx",
       "name": "*",
       "chunks": [
@@ -811,7 +1003,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/components/Education.tsx": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/app/components/Education.tsx": {
       "id": "(app-client)/./src/app/components/Education.tsx",
       "name": "*",
       "chunks": [
@@ -819,7 +1011,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/components/Projects.tsx": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/app/components/Projects.tsx": {
       "id": "(app-client)/./src/app/components/Projects.tsx",
       "name": "*",
       "chunks": [
@@ -827,7 +1019,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/components/SlideUp.tsx": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/app/components/SlideUp.tsx": {
       "id": "(app-client)/./src/app/components/SlideUp.tsx",
       "name": "*",
       "chunks": [
@@ -835,7 +1027,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/components/experience.tsx": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/app/components/experience.tsx": {
       "id": "(app-client)/./src/app/components/experience.tsx",
       "name": "*",
       "chunks": [
@@ -843,7 +1035,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/components/Navbar.tsx": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/app/components/Navbar.tsx": {
       "id": "(app-client)/./src/app/components/Navbar.tsx",
       "name": "*",
       "chunks": [
@@ -851,7 +1043,7 @@
       ],
       "async": false
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/layout.tsx": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/app/layout.tsx": {
       "id": "(app-client)/./src/app/layout.tsx",
       "name": "*",
       "chunks": [
@@ -861,14 +1053,14 @@
     }
   },
   "entryCSSFiles": {
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/page": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/app/page": {
       "modules": [],
       "files": []
     },
-    "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/layout": {
+    "/Users/sangvo/Downloads/Portfolio-Website/src/app/layout": {
       "modules": [
-        "/Users/sangvo/Downloads/React-Portfolio-Website/src/app/globals.css",
-        "/Users/sangvo/Downloads/React-Portfolio-Website/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+        "/Users/sangvo/Downloads/Portfolio-Website/src/app/globals.css",
+        "/Users/sangvo/Downloads/Portfolio-Website/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
       ],
       "files": [
         "static/css/app/layout.css"

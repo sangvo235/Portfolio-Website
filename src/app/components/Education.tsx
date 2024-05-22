@@ -14,7 +14,7 @@ const educationList = [
     image: swinburne,
     degree: 'Master of Information Technology (Software Development)',
     name: 'Swinburne University of Technology',
-    date: 'Feb 2022 - Jul 2024 (Expected)',
+    date: 'Feb 2022 - Jun 2024 (Expected)',
     description: 'GPA: 4.0/4.0, WAM: 86.27/100',
   },
 
@@ -24,7 +24,12 @@ const educationList = [
     degree: 'Master of Informatics - Exchange Program',
     name: 'Technical University of Munich',
     date: '2023 - 2024',
-    description: '',
+    description: (
+      <ul>
+        <li> ▪ Collaboratively enhanced a big data analytics tool with Maltego Technologies.</li>
+        <li> ▪ Optimizing performance and UI usability by utilizing Vite.js, Typescript, Tailwind CSS, Slack, Notion and Linear.</li>
+      </ul>
+    ),  
   },
 
   {
