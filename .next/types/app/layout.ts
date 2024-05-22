@@ -1,4 +1,4 @@
-// File: /Users/sangvo/Downloads/React-Portfolio-Website/src/app/layout.tsx
+// File: /Users/sangvo/Downloads/Portfolio-Website/src/app/layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
