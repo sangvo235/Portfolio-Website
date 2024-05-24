@@ -6,7 +6,7 @@ Portfolio website developed using Nextjs and deployed on Vercel.
 - Responsive design for cross-device compatibility
 
 ## Technologies Used
-- Nextjs
+- Next.js
 - Typescript
 - React
 - Mantine (UI Library)
