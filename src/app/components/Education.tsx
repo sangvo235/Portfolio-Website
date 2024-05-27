@@ -26,9 +26,9 @@ const educationList = [
     date: '2023 - 2024',
     description: (
       <ul>
-        <li>Collaborated with Maltego Technologies to enhance a big data analytics tool using Vite.js.</li>
-        <li>Developed frontend interface, integrated APIs, and participated in weekly stand-ups.</li>
-        <li>Adopted agile sprint cycles and project management tools like Slack, Notion and Linear.</li>
+        <li>▪ Collaborated with Maltego Technologies to enhance a big data analytics tool using Vite.js.</li>
+        <li>▪ Developed frontend interface, integrated APIs, and participated in weekly stand-ups.</li>
+        <li>▪ Adopted agile sprint cycles and project management tools like Slack, Notion and Linear.</li>
       </ul>
     ),  
   },
