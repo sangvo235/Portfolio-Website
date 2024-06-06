@@ -18,8 +18,8 @@ const experienceList = [
     date: 'Feb 2023 - Jun 2023',
     description: (
       <ul>
-        <li> ▪ Leveraged machine learning techniques to predict network performance for a real-time roadside asset management solution developed by Swinburne’s Digital Innovation Lab.</li>
-        <li> ▪ Utilized python libraries (Pandas, Scikit-learn, TensorFlow), Jupyter, and SQL.</li>
+        <li> ▪ Implemented machine learning models to forecast smart city network performance using a 4G/5G dataset at Swinburne’s Digital Innovation Lab.</li>
+        <li> ▪ Utilized SQL and Python libraries (Pandas, Scikit-learn, and TensorFlow) to optimize application performance, incorporating hyperparameter tuning to refine model accuracy.</li>
       </ul>
     ),
     skills: ['Machine Learning', 'Deep Learning', 'Python', 'Pandas', 'Scikit-Learn', 'TensorFlow', 'SQL', 'Data Analysis'],
@@ -33,11 +33,11 @@ const experienceList = [
     date: 'Feb 2023 - Apr 2023',
     description: (
       <ul>
-        <li> ▪ Recipient of the SummerTech Live Internship supported by the Victorian State Government.</li>
-        <li> ▪ Development of a full-stack application using Next.js, TypeScript, tRPC, Prisma and AWS.</li>
+        <li> ▪ Awarded the SummerTech LIVE studentship supported by the Victorian State Government.</li>
+        <li> ▪ Collaborated with team to engineer and deploy a full-stack application using Next.js, TypeScript, Tailwind CSS, Mantine, PostgreSQL, tRPC, Prisma and AWS EC2 Instance.</li>
       </ul>
     ),
-    skills: ['Git', 'Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'tRPC', 'Prisma', 'Asana', 'Slack'],
+    skills: ['Git', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Mantine', 'PostgreSQL', 'tRPC', 'Prisma', 'Asana', 'Slack'],
   },
 
   {
