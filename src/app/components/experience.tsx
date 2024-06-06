@@ -34,10 +34,10 @@ const experienceList = [
     description: (
       <ul>
         <li> ▪ Awarded the SummerTech LIVE studentship supported by the Victorian State Government.</li>
-        <li> ▪ Collaborated with team to engineer and deploy a full-stack application using Next.js, TypeScript, Tailwind CSS, Mantine, PostgreSQL, tRPC, Prisma and AWS EC2 Instance.</li>
+        <li> ▪ Collaborated with team to engineer and deploy a full-stack application using Next.js, TypeScript, TailwindCSS, Mantine, PostgreSQL, tRPC, Prisma and AWS EC2 Instance.</li>
       </ul>
     ),
-    skills: ['Git', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Mantine', 'PostgreSQL', 'tRPC', 'Prisma', 'Asana', 'Slack'],
+    skills: ['Git', 'Next.js', 'TypeScript', 'TailwindCSS', 'Mantine', 'PostgreSQL', 'tRPC', 'Prisma', 'Asana', 'Slack'],
   },
 
   {
