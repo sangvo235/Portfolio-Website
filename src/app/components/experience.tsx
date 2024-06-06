@@ -33,8 +33,8 @@ const experienceList = [
     date: 'Feb 2023 - Apr 2023',
     description: (
       <ul>
-        <li> ▪ Recipient of the SummerTech Live Internship supported by the Victorian State Government.</li>
-        <li> ▪ Development of a full-stack application using Next.js, TypeScript, tRPC, Prisma and AWS.</li>
+        <li> ▪ Awarded the SummerTech LIVE studentship supported by the Victorian State Government.</li>
+        <li> ▪ Collaborated with team to engineer and deploy a full-stack application using Next.js, TypeScript, Tailwind CSS, Mantine, PostgreSQL, tRPC, Prisma and AWS EC2 Instance.</li>
       </ul>
     ),
     skills: ['Git', 'Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'tRPC', 'Prisma', 'Asana', 'Slack'],
