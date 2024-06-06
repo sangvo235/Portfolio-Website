@@ -19,7 +19,7 @@ const experienceList = [
     description: (
       <ul>
         <li> ▪ Implemented machine learning models to forecast smart city network performance using a 4G/5G dataset at Swinburne’s Digital Innovation Lab.</li>
-        <li> ▪ Utilized SQL and Python libraries (Pandas, Scikit-learn, and TensorFlow) to optimize application performance, incorporating hyperparameter tuning to refine model accuracy.</li>
+        <li> ▪ Utilised SQL and Python libraries (Pandas, Scikit-learn, and TensorFlow) to optimise application performance, incorporating hyper-parameter tuning to refine model accuracy.</li>
       </ul>
     ),
     skills: ['Machine Learning', 'Deep Learning', 'Python', 'Pandas', 'Scikit-Learn', 'TensorFlow', 'SQL', 'Data Analysis'],
