@@ -37,7 +37,7 @@ const experienceList = [
         <li> ▪ Collaborated with team to engineer and deploy a full-stack application using Next.js, TypeScript, Tailwind CSS, Mantine, PostgreSQL, tRPC, Prisma and AWS EC2 Instance.</li>
       </ul>
     ),
-    skills: ['Git', 'Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'tRPC', 'Prisma', 'Asana', 'Slack'],
+    skills: ['Git', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Mantine', 'PostgreSQL', 'tRPC', 'Prisma', 'Asana', 'Slack'],
   },
 
   {
