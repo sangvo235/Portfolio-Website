@@ -26,7 +26,7 @@ const educationList = [
     date: '2023 - 2024',
     description: (
       <ul>
-        <li> ▪ Collaborated with Maltego Technologies to enhance and deploy a big data analytics tool using Vite.js, Storybook, Tailwind CSS, Node.js, RESTful APIs, Docker, and Git.</li>
+        <li> ▪ Collaborated with Maltego Technologies to enhance and deploy a big data analytics tool using Vite.js, TypeScript, Storybook, Tailwind CSS, Node.js, RESTful APIs, Docker, and Git.</li>
         <li> ▪ Developed frontend interface, integrated REST APIs, and participated in weekly stand-ups.</li>
         <li> ▪ Adopted agile sprint cycles and project management tools like Slack, Notion and Linear.</li>
       </ul>
