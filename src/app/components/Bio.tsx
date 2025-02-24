@@ -22,21 +22,23 @@ export const Bio = () => {
                 />
             </div>
 
-            <div className='my-6 font-semibold text-2xl md:text-4xl md:mt-2 md:w-4/5 lg:text-5xl'>
+            <div className='my-6 font-semibold text-2xl md:text-4xl md:mt-4 md:w-4/5 lg:text-5xl'>
                 <h1 className='md:pr-32'>Hello, I'm Sang!</h1>
 
-                <div className='inline-flex my-6'> 
+                <div className='inline-flex my-6 text-xl md:text-3xl'> 
                     I&#39;m a&nbsp;
                     <span className='text-teal-600'>
                     <Typewriter
                         options={{
                             strings: [
-                                'Master of IT Student',
-                                'Software Developer',
-                                '☕ Lover',
-                                'World Traveler',
+                                'Software Engineer 💻',
+                                'Master of IT Graduate 🎓',
+                                'Coffee Addict ☕',
+                                'Sci-fi Book Reader 📚🌌',
+                                'Travel Lover ✈️🌏',
                                 'Fragrance Collector',
-                                'Gelato Connoisseur', 
+                                'Gelato Connoisseur 🍨',
+                                'Bubble Tea Enthusiast',
                             ],
                             autoStart: true,
                             loop: true,
