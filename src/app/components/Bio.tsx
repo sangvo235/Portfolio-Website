@@ -31,13 +31,13 @@ export const Bio = () => {
                     <Typewriter
                         options={{
                             strings: [
-                                'Software Engineer 💻',
-                                'Master of IT Graduate 🎓',
+                                'Graduate Software Engineer',
+                                'Master of IT Graduate',
                                 'Coffee Addict ☕',
-                                'Sci-fi Book Reader 📚🌌',
-                                'Travel Lover ✈️🌏',
+                                'Sci-fi Book Reader',
+                                'Frequent Traveller',
+                                'Gelato Connoisseur',
                                 'Fragrance Collector',
-                                'Gelato Connoisseur 🍨',
                                 'Bubble Tea Enthusiast',
                             ],
                             autoStart: true,
