@@ -22,7 +22,7 @@ const experienceList = [
         <li> ▪ Current Rotation: Customer Engagement & Digital - OAO (Origination, Access and Onboarding) Full Stack Team. </li>
       </ul>
     ),
-    // skills: ['Confluence', 'Jira'],
+    skills: ['Confluence', 'Jira', 'TBC'],
   },
 
   {
