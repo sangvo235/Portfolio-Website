@@ -7,7 +7,7 @@ export const Footer = () => {
         <hr className='w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0'></hr>
         <div className='mx-auto p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between'>
             <div className='text-neutral-500 dark:text-neutral-100'>
-                &#169; 2023 Sang Vo
+                &#169; 2025 Sang Vo
             </div>
             <div className='flex flex-row items-center justify-center space-x-2 text-2xl text-neutral-500 dark:text-neutral-100'>
                 <a href="https://www.linkedin.com/in/sangvo235/" target="_blank" title="linkedin">
