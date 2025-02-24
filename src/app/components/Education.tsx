@@ -14,8 +14,8 @@ const educationList = [
     image: swinburne,
     degree: 'Master of Information Technology (Software Development)',
     name: 'Swinburne University of Technology',
-    date: 'Feb 2022 - Jul 2024',
-    description: 'GPA: 4.0/4.0, WAM: 86.27/100',
+    date: '2022 - 2024',
+    description: 'GPA: 4.0/4.0, WAM: 85.77/100',
   },
 
   {
@@ -26,9 +26,10 @@ const educationList = [
     date: '2023 - 2024',
     description: (
       <ul>
-        <li> ▪ Collaborated with Maltego Technologies to enhance and deploy a big data analytics tool using Vite.js, TypeScript, Storybook, TailwindCSS, Node.js, RESTful APIs, Docker, and Git.</li>
-        <li> ▪ Developed frontend interface, integrated REST APIs, and participated in weekly stand-ups.</li>
-        <li> ▪ Adopted agile sprint cycles and project management tools like Slack, Notion and Linear.</li>
+        <li> ▪ Achieved High Distinction (HD) Grade Equivalents in IN2106 JavaScript Technology and IN2107 Foundations and Applications of Graph Neural Networks. </li>
+        <li> ▪ Collaborated with Maltego Technologies to enhance and deploy a big data analytics tool using Vite.js, TypeScript, Storybook, TailwindCSS, Node.js, RESTful APIs, Docker, and Git. </li>
+        <li> ▪ Developed frontend interface, integrated REST APIs, and participated in weekly stand-ups. </li>
+        <li> ▪ Adopted agile sprint cycles and project management tools like Slack, Notion and Linear. </li>
       </ul>
     ),  
   },
