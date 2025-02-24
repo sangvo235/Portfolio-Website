@@ -1,6 +1,7 @@
 "use client";
 import { Group, Text, Accordion, Badge } from '@mantine/core';
 import Image, { StaticImageData } from 'next/image';
+import cba from '../../Images/commonwealthbank_logo.jpg';
 import swinburne from '../../Images/swinburne_logo.jpg';
 import deloitte from '../../Images/deloitte_logo.jpg';
 import easyMonitor from '../../Images/easy_monitor_logo.jpeg';
@@ -11,6 +12,20 @@ import SlideUp from './SlideUp';
 
 const experienceList = [
   {
+    id: 'cba',
+    image: cba,
+    title: 'Graduate Software Engineer',
+    company: 'Commonwealth Bank',
+    date: 'Feb 2025 - Current',
+    description: (
+      <ul>
+        <li> ▪ Current Rotation: Customer Engagement & Digital - OAO (Origination, Access and Onboarding) Full Stack Team. </li>
+      </ul>
+    ),
+    // skills: ['Confluence', 'Jira'],
+  },
+
+  {
     id: 'digital',
     image: swinburne,
     title: 'Machine Learning Intern',
@@ -18,8 +33,8 @@ const experienceList = [
     date: 'Feb 2023 - Jun 2023',
     description: (
       <ul>
-        <li> ▪ Implemented machine learning models to forecast smart city network performance using a 4G/5G dataset at Swinburne’s Digital Innovation Lab.</li>
-        <li> ▪ Utilised SQL and Python libraries (Pandas, Scikit-learn, and TensorFlow) to optimise application performance, incorporating hyper-parameter tuning to refine model accuracy.</li>
+        <li> ▪ Implemented machine learning models to forecast smart city network performance using a 4G/5G dataset at Swinburne’s Digital Innovation Lab. </li>
+        <li> ▪ Utilised SQL and Python libraries (Pandas, Scikit-learn, and TensorFlow) to optimise application performance, incorporating hyper-parameter tuning to refine model accuracy. </li>
       </ul>
     ),
     skills: ['Machine Learning', 'Deep Learning', 'Python', 'Pandas', 'Scikit-Learn', 'TensorFlow', 'SQL', 'Data Analysis'],
@@ -33,8 +48,8 @@ const experienceList = [
     date: 'Feb 2023 - Apr 2023',
     description: (
       <ul>
-        <li> ▪ Awarded the SummerTech LIVE studentship supported by the Victorian State Government.</li>
-        <li> ▪ Collaborated with team to engineer and deploy a full-stack application using Next.js, TypeScript, TailwindCSS, Mantine, PostgreSQL, tRPC, Prisma and AWS EC2 Instance.</li>
+        <li> ▪ Awarded the SummerTech LIVE studentship supported by the Victorian State Government. </li>
+        <li> ▪ Collaborated with team to engineer and deploy a full-stack application using Next.js, TypeScript, TailwindCSS, Mantine, PostgreSQL, tRPC, Prisma and AWS EC2 Instance. </li>
       </ul>
     ),
     skills: ['Git', 'Next.js', 'TypeScript', 'TailwindCSS', 'Mantine', 'PostgreSQL', 'tRPC', 'Prisma', 'Asana', 'Slack'],
@@ -49,11 +64,11 @@ const experienceList = [
     description: (
       <ul>
         <li> ▪ Achieved AWS Certified Cloud Practitioner through Deloitte Cloud Guild.</li>
-        <li> ▪ Consolidated knowledge of AWS Cloud and its core services, security, architecture, pricing, and support.</li>
-        <li> ▪ Familiarity with cloud computing security and data protection, including secure architecture design, network security, and incident response planning.</li>
-        <li> ▪ Knowledge of software development life cycle (SDLC) security best practices and the ability to integrate security into the SDLC.</li>
-        <li> ▪ Assisted in the development, implementation and maintenance of SOX controls and processes in accordance with the Sarbanes-Oxley Act.</li>
-        <li> ▪ Assisted in the successful implementation of a comprehensive business continuity plan that included disaster recovery strategies for various scenarios such as natural disasters, data breaches, and power outages.</li>
+        <li> ▪ Consolidated knowledge of AWS Cloud and its core services, security, architecture, pricing, and support. </li>
+        <li> ▪ Familiarity with cloud computing security and data protection, including secure architecture design, network security, and incident response planning. </li>
+        <li> ▪ Knowledge of software development life cycle (SDLC) security best practices and the ability to integrate security into the SDLC. </li>
+        <li> ▪ Assisted in the development, implementation and maintenance of SOX controls and processes in accordance with the Sarbanes-Oxley Act. </li>
+        <li> ▪ Assisted in the successful implementation of a comprehensive business continuity plan that included disaster recovery strategies for various scenarios such as natural disasters, data breaches, and power outages. </li>
       </ul>
     ),  
     skills: ['Amazon Web Services (AWS)', 'IT Controls', 'Control Framework', 'Software Development Life Cycle (SDLC)', 'Cloud Security', 'Business Continuity Planning', 'Disaster Recovery', 'ISO Standards', 'Sarbanes-Oxley Act']
@@ -67,8 +82,8 @@ const experienceList = [
     date: 'Feb 2022 - Aug 2022',
     description: (
       <ul>
-        <li> ▪ Managing IT incidents and service requests to provide technical support for end-users.</li>
-        <li> ▪ Understanding of technical infrastructure projects and related technology dependencies.</li>
+        <li> ▪ Managing IT incidents and service requests to provide technical support for end-users. </li>
+        <li> ▪ Understanding of technical infrastructure projects and related technology dependencies. </li>
       </ul>
     ),  
     skills: ['SAP Products', 'IT Service Management', 'Service-Level Agreements (SLA)', 'Active Directory', 'Technical Support', 'Microsoft Office', 'ServiceNow', 'Citrix', 'Microsoft Azure'],
