@@ -1,6 +1,5 @@
-"use client"
+'use client';
 
-import React from 'react'
 import {AiFillLinkedin, AiFillGithub, AiFillMail} from 'react-icons/ai';
 import Image from 'next/image';
 import sangvo from '../../Images/sangvo.jpeg';

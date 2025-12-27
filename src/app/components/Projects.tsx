@@ -1,5 +1,6 @@
-"use client";
-import React from 'react'
+'use client';
+
+import { JSX } from 'react'
 import Image from 'next/image';
 import { BsArrowUpRightSquare, BsGithub } from 'react-icons/bs';
 import SlideUp from './SlideUp';

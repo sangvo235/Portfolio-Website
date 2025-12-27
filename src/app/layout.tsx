@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ThemeProvider enableSystem={true} attribute='class'>
+        <ThemeProvider enableSystem attribute='class'>
           <Navbar />
           {children}
           <Footer />

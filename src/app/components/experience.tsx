@@ -1,4 +1,5 @@
-"use client";
+'use client';
+
 import { Group, Text, Accordion, Badge } from '@mantine/core';
 import Image, { StaticImageData } from 'next/image';
 import cba from '../../Images/commonwealthbank_logo.jpg';
@@ -146,7 +147,7 @@ function AccordionLabel({ image, title, company, date, description, skills}: Acc
 
 const Experience = () => {
   const items = experienceList.map((item) => (
-    <div className='pb-6'>
+    <div key={item.id} className='pb-6'>
       <SlideUp offset='-300px 0px -300px 0px'>
         <div className='border border-gray-200 rounded-lg shadow-md'>
           <Accordion.Item value={item.id} key={item.title} className='animate-slideUpCubiBezier animation-delay-2'>

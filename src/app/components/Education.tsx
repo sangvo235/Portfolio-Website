@@ -1,4 +1,5 @@
-"use client";
+'use client';
+
 import { Card, Text, Group } from '@mantine/core';
 import Image, { StaticImageData } from 'next/image';
 import swinburne from '../../Images/swinburne_logo.jpg';
@@ -71,7 +72,7 @@ const educationList = [
 
   const Education = () => {
     const items = educationList.map((item) => (  
-      <div className='pb-4'>
+      <div key={item.id} className='pb-6'>
         <SlideUp offset='-300px 0px -300px 0px'>
           <Card shadow="sm" mt="sm" pb="lg" radius="md" withBorder={true} key={item.id} className='animate-slideUpCubiBezier animation-delay-2'>
             <CardLabel {...item} />
