@@ -33,7 +33,7 @@ const experienceList = [
         <li> ▪ Implemented GitHub Actions pipelines to deploy and decommission AWS ECS services, validating changes via AWS Console. </li>
       </ul>
     ),
-    skills: ['Confluence', 'Jira', 'TBC'],
+    skills: ['TypeScript', 'Next.js', 'C#', '.NET', 'Microsoft Teams', 'Confluence', 'Jira', 'API Testing', 'Bruno', 'Software Observability', 'Continuous Integration and Continuous Delivery (CI/CD)', 'Synk', 'SonarQube', 'AWS', 'GitHub Actions', 'Git', 'Docker', 'JetBrains Rider', 'Cline', 'GitHub Copilot'],
   },
 
   {
