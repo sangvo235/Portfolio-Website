@@ -2,6 +2,7 @@
 import { Group, Text, Accordion, Badge } from '@mantine/core';
 import Image, { StaticImageData } from 'next/image';
 import cba from '../../Images/commonwealthbank_logo.jpg';
+import maltego from '../../Images/maltego_logo.jpg'
 import swinburne from '../../Images/swinburne_logo.jpg';
 import deloitte from '../../Images/deloitte_logo.jpg';
 import easyMonitor from '../../Images/easy_monitor_logo.jpeg';
@@ -33,6 +34,22 @@ const experienceList = [
       </ul>
     ),
     skills: ['Confluence', 'Jira', 'TBC'],
+  },
+
+  {
+    id: 'maltego',
+    image: maltego,
+    title: 'Software Engineering Intern (Praktikum)',
+    company: 'Maltego Technologies',
+    date: 'Oct 2023 - Feb 2024',
+    description: (
+      <ul>
+        <li> ▪ Collaborated with Maltego Technologies to enhance and deploy a big data analytics tool as part of the selective IN2106 JavaScript Technology Praktikum (6-8% acceptance rate), leveraging Vite.js, TypeScript, Storybook, TailwindCSS, Node.js, and Docker. </li>
+        <li> ▪ Developed frontend interface, integrated REST APIs, and participated in weekly stand-ups. </li>
+        <li> ▪ Adopted agile sprint cycles and project management tools like Slack, Notion and Linear. </li>   
+      </ul>
+    ),
+    skills: ['TypeScript', 'Vite.js', 'Node.js', 'Tailwind CSS', 'Storybook', 'REST APIs', 'Docker', 'PostgreSQL', 'Slack', 'Notion', 'Linear', 'Git', "Agile Methodologies"],
   },
 
   {
