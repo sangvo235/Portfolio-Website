@@ -1,4 +1,5 @@
-"use client";
+'use client';
+
 import { Card, Text, Group } from '@mantine/core';
 import Image, { StaticImageData } from 'next/image';
 import swinburne from '../../Images/swinburne_logo.jpg';
@@ -26,10 +27,7 @@ const educationList = [
     date: '2023 - 2024',
     description: (
       <ul>
-        <li> ▪ Achieved High Distinction (HD) Grade Equivalents in IN2106 JavaScript Technology and IN2107 Foundations and Applications of Graph Neural Networks. </li>
-        <li> ▪ Collaborated with Maltego Technologies to enhance and deploy a big data analytics tool using Vite.js, TypeScript, Storybook, TailwindCSS, Node.js, RESTful APIs, Docker, and Git. </li>
-        <li> ▪ Developed frontend interface, integrated REST APIs, and participated in weekly stand-ups. </li>
-        <li> ▪ Adopted agile sprint cycles and project management tools like Slack, Notion and Linear. </li>
+        <li> ▪ Achieved High Distinction (HD) Grade Equivalents in IN2106 JavaScript Technology Praktikum (6-8% acceptance rate) and IN2107 Foundations and Applications of Graph Neural Networks. </li>
       </ul>
     ),  
   },
@@ -72,9 +70,9 @@ const educationList = [
     );
   }
 
-  export default function Education() {
+  const Education = () => {
     const items = educationList.map((item) => (  
-      <div className='pb-4'>
+      <div key={item.id} className='pb-6'>
         <SlideUp offset='-300px 0px -300px 0px'>
           <Card shadow="sm" mt="sm" pb="lg" radius="md" withBorder={true} key={item.id} className='animate-slideUpCubiBezier animation-delay-2'>
             <CardLabel {...item} />
@@ -83,27 +81,29 @@ const educationList = [
       </div>
     ));
     
-      return (
-        <section id="education">
-            <div className='my-12 pb-12 md:pt-16 md:pb-48'>
-                <h1 className='text-center font-semibold text-3xl my-10 md:text-5xl'>Education</h1>
-                <hr className="w-6 h-1 mx-auto mb-12 bg-teal-500 border-0 rounded"></hr>
-                {items}
-                <SlideUp offset='-300px 0px -300px 0px'>
-                  <div className='flex flex-row justify-center mt-12 animate-slideUpCubiBezier animation-delay-2'>
-                      <Link 
-                          to='projects'
-                          activeClass='active'
-                          spy={true}
-                          smooth={true}
-                          offset={-100}
-                          duration={500}
-                      >
-                          <HiArrowDown size={35} className='animate-bounce' />
-                      </Link>    
-                  </div>    
-                </SlideUp>
-            </div>
-        </section>
+    return (
+      <section id="education">
+          <div className='my-12 pb-12 md:pt-16 md:pb-48'>
+              <h1 className='text-center font-semibold text-3xl my-10 md:text-5xl'>Education</h1>
+              <hr className="w-6 h-1 mx-auto mb-12 bg-teal-500 border-0 rounded"></hr>
+              {items}
+              <SlideUp offset='-300px 0px -300px 0px'>
+                <div className='flex flex-row justify-center mt-12 animate-slideUpCubiBezier animation-delay-2'>
+                    <Link 
+                        to='projects'
+                        activeClass='active'
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={500}
+                    >
+                        <HiArrowDown size={35} className='animate-bounce' />
+                    </Link>    
+                </div>    
+              </SlideUp>
+          </div>
+      </section>
     );
   }
+
+export default Education;

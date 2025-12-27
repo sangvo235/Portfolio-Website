@@ -1,5 +1,5 @@
 import Bio from './components/Bio';
-import Experience from './components/experience';
+import Experience from './components/Experience';
 import Education from './components/Education';
 import Projects from './components/Projects';
 
