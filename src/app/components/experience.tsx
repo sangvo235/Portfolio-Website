@@ -144,7 +144,7 @@ function AccordionLabel({ image, title, company, date, description, skills}: Acc
   );
 }
 
-export default function Experience() {
+const Experience = () => {
   const items = experienceList.map((item) => (
     <div className='pb-6'>
       <SlideUp offset='-300px 0px -300px 0px'>
@@ -173,38 +173,36 @@ export default function Experience() {
     </div>
   ));
   
-    return (
-      <section id="experience">
-        <div className='my-12 pb-12 md:pt-16 md:pb-48'>
-          <h1 className='text-center font-semibold text-3xl my-10 md:text-5xl'>Experience</h1>
-          <hr className="w-6 h-1 mx-auto mb-12 bg-teal-500 border-0 rounded"></hr>
-          <Accordion 
-            chevronPosition="right" 
-            variant="separated" 
-            transitionDuration={500}
-            >
-              {items}
-          </Accordion>
+  return (
+    <section id="experience">
+      <div className='my-12 pb-12 md:pt-16 md:pb-48'>
+        <h1 className='text-center font-semibold text-3xl my-10 md:text-5xl'>Experience</h1>
+        <hr className="w-6 h-1 mx-auto mb-12 bg-teal-500 border-0 rounded"></hr>
+        <Accordion 
+          chevronPosition="right" 
+          variant="separated" 
+          transitionDuration={500}
+          >
+            {items}
+        </Accordion>
 
-          <SlideUp offset='-300px 0px -300px 0px'>
-            <div className='flex flex-row justify-center mt-12 animate-slideUpCubiBezier animation-delay-2'>
-              <Link 
-                  to='education'
-                  activeClass='active'
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={500}
-              >
-                  <HiArrowDown size={35} className='animate-bounce' />
-              </Link>    
-            </div> 
-          </SlideUp>
-        </div>
-      </section>
+        <SlideUp offset='-300px 0px -300px 0px'>
+          <div className='flex flex-row justify-center mt-12 animate-slideUpCubiBezier animation-delay-2'>
+            <Link 
+                to='education'
+                activeClass='active'
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+            >
+                <HiArrowDown size={35} className='animate-bounce' />
+            </Link>    
+          </div> 
+        </SlideUp>
+      </div>
+    </section>
   );
 }
 
-
-
-
+export default Experience;

@@ -69,7 +69,7 @@ const educationList = [
     );
   }
 
-  export default function Education() {
+  const Education = () => {
     const items = educationList.map((item) => (  
       <div className='pb-4'>
         <SlideUp offset='-300px 0px -300px 0px'>
@@ -80,27 +80,29 @@ const educationList = [
       </div>
     ));
     
-      return (
-        <section id="education">
-            <div className='my-12 pb-12 md:pt-16 md:pb-48'>
-                <h1 className='text-center font-semibold text-3xl my-10 md:text-5xl'>Education</h1>
-                <hr className="w-6 h-1 mx-auto mb-12 bg-teal-500 border-0 rounded"></hr>
-                {items}
-                <SlideUp offset='-300px 0px -300px 0px'>
-                  <div className='flex flex-row justify-center mt-12 animate-slideUpCubiBezier animation-delay-2'>
-                      <Link 
-                          to='projects'
-                          activeClass='active'
-                          spy={true}
-                          smooth={true}
-                          offset={-100}
-                          duration={500}
-                      >
-                          <HiArrowDown size={35} className='animate-bounce' />
-                      </Link>    
-                  </div>    
-                </SlideUp>
-            </div>
-        </section>
+    return (
+      <section id="education">
+          <div className='my-12 pb-12 md:pt-16 md:pb-48'>
+              <h1 className='text-center font-semibold text-3xl my-10 md:text-5xl'>Education</h1>
+              <hr className="w-6 h-1 mx-auto mb-12 bg-teal-500 border-0 rounded"></hr>
+              {items}
+              <SlideUp offset='-300px 0px -300px 0px'>
+                <div className='flex flex-row justify-center mt-12 animate-slideUpCubiBezier animation-delay-2'>
+                    <Link 
+                        to='projects'
+                        activeClass='active'
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={500}
+                    >
+                        <HiArrowDown size={35} className='animate-bounce' />
+                    </Link>    
+                </div>    
+              </SlideUp>
+          </div>
+      </section>
     );
   }
+
+export default Education;

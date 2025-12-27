@@ -9,9 +9,7 @@ import { Link } from 'react-scroll';
 import { HiArrowDown } from 'react-icons/hi';
 
 export const Bio = () => {
-    
   return (
-
     <section id='home'>
     <div className='flex flex-col text-center items-center justify-center my-10 md:flex-row-reverse md:space-x-4 md:text-left md:py-32'>
         <div className='relative mx-auto rounded-full w-80 h-80 mt-10 md:w-2/5 md:mt-4'>
@@ -90,4 +88,4 @@ export const Bio = () => {
     )
 }
 
-export default Bio
+export default Bio;
