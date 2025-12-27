@@ -45,9 +45,8 @@ const experienceList = [
     date: 'Oct 2023 - Feb 2024',
     description: (
       <ul>
-        <li> ▪ Collaborated with Maltego Technologies to enhance and deploy a big data analytics tool as part of the selective IN2106 JavaScript Technology Praktikum (6-8% acceptance rate), leveraging Vite.js, TypeScript, Storybook, TailwindCSS, Node.js, and Docker. </li>
-        <li> ▪ Developed frontend interface, integrated REST APIs, and participated in weekly stand-ups. </li>
-        <li> ▪ Adopted agile sprint cycles and project management tools like Slack, Notion and Linear. </li>   
+        <li> ▪ As part of the selective IN2106 JavaScript Technology Praktikum (6-8% acceptance rate), collaborated with Maltego Technologies to enhance and deploy a big data analytics tool. </li>
+        <li> ▪ Developed the frontend with Vite.js and TypeScript, integrated REST APIs, and participated in weekly stand-ups and agile sprints using Slack, Notion, and Linear. </li>   
       </ul>
     ),
     skills: ['TypeScript', 'Vite.js', 'Node.js', 'Tailwind CSS', 'Storybook', 'REST APIs', 'Docker', 'PostgreSQL', 'Slack', 'Notion', 'Linear', 'Git', "Agile Methodologies"],
@@ -77,7 +76,7 @@ const experienceList = [
     description: (
       <ul>
         <li> ▪ Awarded the SummerTech LIVE studentship supported by the Victorian State Government. </li>
-        <li> ▪ Collaborated with team to engineer and deploy a full-stack application using Next.js, TypeScript, TailwindCSS, Mantine, PostgreSQL, tRPC, Prisma and AWS EC2 Instance. </li>
+        <li> ▪ Built and deployed the MVP full-stack application for a financial planning startup, connecting consumers to financial planners, using Next.js, TypeScript, PostgreSQL, Prisma, and AWS. </li>
       </ul>
     ),
     skills: ['Git', 'Next.js', 'TypeScript', 'TailwindCSS', 'Mantine', 'PostgreSQL', 'tRPC', 'Prisma', 'Asana', 'Slack'],
