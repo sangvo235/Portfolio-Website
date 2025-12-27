@@ -19,7 +19,17 @@ const experienceList = [
     date: 'Feb 2025 - Current',
     description: (
       <ul>
-        <li> ▪ Current Rotation: Customer Engagement & Digital - OAO (Origination, Access and Onboarding) Full Stack Team. </li>
+        <li> ▪ Member of the Technology Graduate 2025 Committee representing 300+ technology graduates across Australia, leading events and presenting at conferences to drive engagement and showcase leadership. </li>
+        <br />
+        Rotation 1: Retail Technology (Full-Stack)
+        <li> ▪ Developed observability dashboards for fraud detection by implementing structured logging and aggregating non-production and production logs. The enhancement improved risk management, reduced scam and fraud incidents, strengthened customer safeguards, and was recognised with the FY25 Quarterly Excellence Award for digital onboarding improvements. </li>
+        <li> ▪ Built and enhanced UI components using Next.js and TypeScript, including login flows and message alert banners, with robust error handling for a platform serving ~9 million active customers. </li>
+        <li> ▪ Presented proof-of-concept solutions to Staff Engineer and UI/UX teams, rapidly iterating on designs based on stakeholder feedback. </li>
+        <br />
+        Rotation 2: Business Banking (Backend/API)
+        <li> ▪ Developed and tested C#/.NET APIs using Bruno across multiple microservices, enhancing unit and integration test coverage, resolving SonarQube issues, and improving CI/CD pipelines. </li>
+        <li> ▪ Authored technical documentation and implemented microservice database and schema updates to support new features and enhancements. </li>
+        <li> ▪ Implemented GitHub Actions pipelines to deploy and decommission AWS ECS services, validating changes via AWS Console. </li>
       </ul>
     ),
     skills: ['Confluence', 'Jira', 'TBC'],
