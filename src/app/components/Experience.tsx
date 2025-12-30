@@ -40,7 +40,7 @@ const experienceList = [
   {
     id: 'maltego',
     image: maltego,
-    title: 'Software Engineering Intern (Praktikum)',
+    title: 'Software Engineering Intern',
     company: 'Maltego Technologies',
     date: 'Oct 2023 - Feb 2024',
     description: (
